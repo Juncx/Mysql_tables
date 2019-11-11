@@ -11,7 +11,7 @@
 				"Default": "",
 				"Extra": "auto_increment",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "业务ID"
 			},
 			{
 				"Field": "bussnessName",
@@ -22,7 +22,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "业务名称"
 			},
 			{
 				"Field": "bussnessType",
@@ -33,7 +33,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "业务类型 1、菜单2、功能"
 			},
 			{
 				"Field": "bussnessAddr",
@@ -44,7 +44,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "业务地址"
 			},
 			{
 				"Field": "parentBussnessID",
@@ -55,7 +55,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "父业务ID"
 			},
 			{
 				"Field": "isHide",
@@ -66,7 +66,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "是否隐藏 0不隐藏 1隐藏"
 			}
 		]
 	},
@@ -82,7 +82,7 @@
 				"Default": "",
 				"Extra": "auto_increment",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "业务ID"
 			},
 			{
 				"Field": "bussnessName",
@@ -93,7 +93,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "业务名称"
 			},
 			{
 				"Field": "bussnessType",
@@ -104,7 +104,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "业务类型 1、菜单2、功能"
 			},
 			{
 				"Field": "bussnessAddr",
@@ -115,7 +115,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "业务地址"
 			},
 			{
 				"Field": "parentBussnessID",
@@ -126,7 +126,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "父业务ID"
 			},
 			{
 				"Field": "isHide",
@@ -137,7 +137,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "是否隐藏 0不隐藏 1隐藏"
 			}
 		]
 	},
@@ -153,7 +153,7 @@
 				"Default": "",
 				"Extra": "auto_increment",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "id"
 			},
 			{
 				"Field": "userID",
@@ -164,7 +164,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作者编号"
 			},
 			{
 				"Field": "changeDate",
@@ -175,7 +175,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作日期"
 			},
 			{
 				"Field": "changeTime",
@@ -186,7 +186,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作时间"
 			},
 			{
 				"Field": "content",
@@ -197,7 +197,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作内容"
 			}
 		]
 	},
@@ -213,7 +213,7 @@
 				"Default": "",
 				"Extra": "auto_increment",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "功能ID"
 			},
 			{
 				"Field": "bussnessID",
@@ -224,7 +224,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "业务ID"
 			},
 			{
 				"Field": "navigationID",
@@ -235,7 +235,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "业务ID"
 			},
 			{
 				"Field": "functionName",
@@ -246,7 +246,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "功能名称"
 			},
 			{
 				"Field": "issort",
@@ -257,7 +257,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "排序 0不排序 1排序"
 			}
 		]
 	},
@@ -273,7 +273,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "功能id"
 			},
 			{
 				"Field": "functionName",
@@ -284,7 +284,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "功能名称"
 			}
 		]
 	},
@@ -300,7 +300,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "id"
 			},
 			{
 				"Field": "roleID",
@@ -311,7 +311,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "角色ID"
 			},
 			{
 				"Field": "functionID",
@@ -322,7 +322,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "功能ID"
 			}
 		]
 	},
@@ -338,7 +338,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "角色ID"
 			},
 			{
 				"Field": "rolesName",
@@ -349,7 +349,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "角色名称"
 			},
 			{
 				"Field": "userID",
@@ -360,7 +360,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "创建该角色的用户ID"
 			},
 			{
 				"Field": "createDate",
@@ -371,7 +371,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "角色创建日期"
 			},
 			{
 				"Field": "createTime",
@@ -382,7 +382,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "角色创建时间"
 			},
 			{
 				"Field": "rolesType",
@@ -393,7 +393,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "角色类型(0内置 1增删改)，内置类型不可以修改删除，新增类型，可以修改删除"
 			},
 			{
 				"Field": "authorityType",
@@ -404,7 +404,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "模板类型 1、机构 2、管理员 3、风控员"
 			}
 		]
 	},
@@ -420,7 +420,7 @@
 				"Default": "",
 				"Extra": "auto_increment",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "出入金流水号"
 			},
 			{
 				"Field": "AccountID",
@@ -442,7 +442,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "业务ID"
 			},
 			{
 				"Field": "Amount",
@@ -453,7 +453,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "金额"
 			},
 			{
 				"Field": "Description",
@@ -464,7 +464,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "说明"
 			},
 			{
 				"Field": "BankName",
@@ -497,7 +497,7 @@
 				"Default": "0000-00-00 00:00:00",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "提交时间"
 			},
 			{
 				"Field": "UpdateTime",
@@ -508,7 +508,7 @@
 				"Default": "0000-00-00 00:00:00",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "更新时间"
 			},
 			{
 				"Field": "StateID",
@@ -519,7 +519,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "状态"
 			},
 			{
 				"Field": "OrderNumber",
@@ -530,7 +530,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "订单流水号"
 			},
 			{
 				"Field": "RechargeType",
@@ -563,7 +563,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "身份证号"
 			},
 			{
 				"Field": "ResultCode",
@@ -607,7 +607,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "是否已审核(0未审核 1审核 2审核拒绝)"
 			},
 			{
 				"Field": "ApprovalTime",
@@ -618,7 +618,7 @@
 				"Default": "0000-00-00 00:00:00",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "审核时间"
 			},
 			{
 				"Field": "ApprovalReason",
@@ -629,7 +629,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "审核原因"
 			},
 			{
 				"Field": "ApprovalID",
@@ -640,7 +640,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "审核者UserID"
 			},
 			{
 				"Field": "BaseAmount",
@@ -651,7 +651,7 @@
 				"Default": "0.000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "基币金额"
 			},
 			{
 				"Field": "Type",
@@ -662,7 +662,7 @@
 				"Default": "1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "1，线上；2线下"
 			},
 			{
 				"Field": "OffLineRecource",
@@ -673,7 +673,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "线下来源:1、微信;2、支付宝；3、银行转账"
 			},
 			{
 				"Field": "OffLinePayAccount",
@@ -684,7 +684,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "线下付款账户"
 			},
 			{
 				"Field": "OffLineSerialNumber",
@@ -695,7 +695,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "线下流水号"
 			}
 		]
 	},
@@ -711,7 +711,7 @@
 				"Default": "",
 				"Extra": "auto_increment",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "出入金流水号"
 			},
 			{
 				"Field": "UserID",
@@ -733,7 +733,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "身份证号"
 			},
 			{
 				"Field": "BankCard",
@@ -744,7 +744,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "银行卡号"
 			},
 			{
 				"Field": "BankName",
@@ -755,7 +755,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "银行名称"
 			},
 			{
 				"Field": "BankBranch",
@@ -777,7 +777,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "出金金额"
 			},
 			{
 				"Field": "PostTime",
@@ -788,7 +788,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "提交时间"
 			},
 			{
 				"Field": "IsApproval",
@@ -799,7 +799,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "是否已审核(0未审核 1审核 2审核拒绝)"
 			},
 			{
 				"Field": "ApprovalTime",
@@ -810,7 +810,7 @@
 				"Default": "0000-00-00 00:00:00",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "审核时间"
 			},
 			{
 				"Field": "RealName",
@@ -821,7 +821,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "姓名（实名制）"
 			},
 			{
 				"Field": "ApprovalReason",
@@ -832,7 +832,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "审核原因，主要为拒绝审核时使用"
 			},
 			{
 				"Field": "ApprovalID",
@@ -843,7 +843,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "审核者UserID"
 			},
 			{
 				"Field": "OutAmountCNY",
@@ -854,7 +854,7 @@
 				"Default": "0.000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "人名币出金金额"
 			}
 		]
 	},
@@ -870,7 +870,7 @@
 				"Default": "",
 				"Extra": "auto_increment",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "主键"
 			},
 			{
 				"Field": "userID",
@@ -881,7 +881,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "账户"
 			},
 			{
 				"Field": "loginName",
@@ -1029,7 +1029,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "条件单类型：0、价格 1.时间 2.时间价格"
 			},
 			{
 				"Field": "triggerPriceType",
@@ -1040,7 +1040,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "触发价格类型：1最新价，2买一价，3卖一价"
 			},
 			{
 				"Field": "triggerCondition",
@@ -1051,7 +1051,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "触发条件：1\u003e=  2\u003c="
 			},
 			{
 				"Field": "triggerPrice",
@@ -1073,7 +1073,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "触发时间"
 			},
 			{
 				"Field": "timeConditionType",
@@ -1084,7 +1084,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "时间有效类型，0当日有效，1交割日前有效"
 			},
 			{
 				"Field": "orderType",
@@ -1095,7 +1095,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "下单类型：1指定价（下单限价）2对手价（下单限价）3市价（下单市价）"
 			},
 			{
 				"Field": "orderPrice",
@@ -1117,7 +1117,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "买卖方向，  \"B\" (buy)表示买， \"S\" (sell)表示卖"
 			},
 			{
 				"Field": "openOffset",
@@ -1128,7 +1128,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "开平标志，  1 表示开仓， 2 表示平仓， 3 表示平今"
 			},
 			{
 				"Field": "volume",
@@ -1150,7 +1150,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "止盈止损单状态：0 新建（工作中）1已触发（已发委托）2失败 3删除"
 			},
 			{
 				"Field": "orderFrom",
@@ -1161,7 +1161,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "下单来源"
 			},
 			{
 				"Field": "createDate",
@@ -1194,7 +1194,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "更新或删除"
 			},
 			{
 				"Field": "updateTime",
@@ -1238,7 +1238,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "内部使用"
 			},
 			{
 				"Field": "triggerConTime",
@@ -1249,7 +1249,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "触发条件时间"
 			},
 			{
 				"Field": "triggerConDate",
@@ -1260,7 +1260,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "触发条件日期"
 			},
 			{
 				"Field": "triggerDate",
@@ -1271,7 +1271,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "触发日期"
 			}
 		]
 	},
@@ -1320,7 +1320,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "条件单类型：0、价格 1.时间 2.时间价格"
 			},
 			{
 				"Field": "triggerPriceType",
@@ -1331,7 +1331,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "触发价格类型：1最新价，2买一价，3卖一价"
 			},
 			{
 				"Field": "triggerCondition",
@@ -1342,7 +1342,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "触发条件：1\u003e=  2\u003c="
 			},
 			{
 				"Field": "triggerPrice",
@@ -1364,7 +1364,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "触发时间"
 			},
 			{
 				"Field": "timeConditionType",
@@ -1375,7 +1375,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "时间有效类型，0当日有效，1交割日前有效"
 			},
 			{
 				"Field": "orderType",
@@ -1386,7 +1386,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "下单类型：1指定价（下单限价）2对手价（下单限价）3市价（下单市价）"
 			},
 			{
 				"Field": "orderPrice",
@@ -1408,7 +1408,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "买卖方向，  \"B\" (buy)表示买， \"S\" (sell)表示卖"
 			},
 			{
 				"Field": "openOffset",
@@ -1419,7 +1419,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "开平标志，  1 表示开仓， 2 表示平仓， 3 表示平今"
 			},
 			{
 				"Field": "volume",
@@ -1441,7 +1441,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "止盈止损单状态：0 新建（工作中）1已触发（已发委托）2失败 3删除"
 			},
 			{
 				"Field": "orderFrom",
@@ -1452,7 +1452,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "下单来源"
 			},
 			{
 				"Field": "createDate",
@@ -1485,7 +1485,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "更新或删除"
 			},
 			{
 				"Field": "updateTime",
@@ -1529,7 +1529,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "内部使用"
 			},
 			{
 				"Field": "triggerConTime",
@@ -1540,7 +1540,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "触发条件时间"
 			},
 			{
 				"Field": "triggerConDate",
@@ -1551,7 +1551,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "触发条件日期"
 			},
 			{
 				"Field": "triggerDate",
@@ -1562,7 +1562,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "触发日期"
 			}
 		]
 	},
@@ -1578,7 +1578,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约ID"
 			},
 			{
 				"Field": "contractCode",
@@ -1589,7 +1589,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约代码"
 			},
 			{
 				"Field": "contractName",
@@ -1600,7 +1600,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约名"
 			},
 			{
 				"Field": "productID",
@@ -1611,7 +1611,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "品种ID"
 			},
 			{
 				"Field": "deliveryDate",
@@ -1622,7 +1622,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "交割日"
 			},
 			{
 				"Field": "isLimitPrice",
@@ -1633,7 +1633,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "是否只能下限价单；1是，0否"
 			},
 			{
 				"Field": "isLogicDel",
@@ -1644,7 +1644,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "是否逻辑删除，1是0否"
 			}
 		]
 	},
@@ -1687,7 +1687,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "手续费ID(主键)"
 			},
 			{
 				"Field": "feeModuleID",
@@ -1698,7 +1698,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "手续费模板ID"
 			},
 			{
 				"Field": "productID",
@@ -1709,7 +1709,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "品种ID"
 			},
 			{
 				"Field": "closeFee",
@@ -1720,7 +1720,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "平仓手续费"
 			},
 			{
 				"Field": "closeTodayFee",
@@ -1731,7 +1731,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "平今仓手续费, 内盘上期所"
 			},
 			{
 				"Field": "openFee",
@@ -1742,7 +1742,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "开仓手续费"
 			},
 			{
 				"Field": "feeType",
@@ -1753,7 +1753,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "手续费收取类型，0按比例，1按固定值"
 			}
 		]
 	},
@@ -1769,7 +1769,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "手续费模板ID"
 			},
 			{
 				"Field": "feeModuleName",
@@ -1780,7 +1780,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "手续费模板名称"
 			},
 			{
 				"Field": "institutionID",
@@ -1791,7 +1791,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "所属机构ID"
 			},
 			{
 				"Field": "monitorID",
@@ -1802,7 +1802,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控员ID (扩展使用)"
 			},
 			{
 				"Field": "manangerID",
@@ -1813,7 +1813,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "管理员ID (扩展使用)"
 			}
 		]
 	},
@@ -1840,7 +1840,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作者(管理员ID)"
 			},
 			{
 				"Field": "managerName",
@@ -1851,7 +1851,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作者名称"
 			},
 			{
 				"Field": "operatorModule",
@@ -1862,7 +1862,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作模块类型 1、跟单账户模块 2、管理员模块 3、管理员设置模块 4、对冲模块"
 			},
 			{
 				"Field": "operatorModuleName",
@@ -1873,7 +1873,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作模块名称"
 			},
 			{
 				"Field": "operatorID",
@@ -1884,7 +1884,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作对象----- userID"
 			},
 			{
 				"Field": "operatorName",
@@ -1895,7 +1895,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作对象名称"
 			},
 			{
 				"Field": "describeText",
@@ -1906,7 +1906,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "内容详细"
 			},
 			{
 				"Field": "content",
@@ -1917,7 +1917,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作的内容"
 			},
 			{
 				"Field": "createDate",
@@ -1977,7 +1977,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": " 委托ID"
 			},
 			{
 				"Field": "closePositionID",
@@ -1999,7 +1999,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "帐户标识(用户ID)， 系统内部使用"
 			},
 			{
 				"Field": "loginName",
@@ -2021,7 +2021,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约代码"
 			},
 			{
 				"Field": "contractName",
@@ -2043,7 +2043,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "买卖方向，  \"B\" (buy)表示买， \"S\" (sell)表示卖"
 			},
 			{
 				"Field": "openOffset",
@@ -2054,7 +2054,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "开平标志，  1 表示开仓， 2 表示平仓， 3 表示平今"
 			},
 			{
 				"Field": "priceType",
@@ -2065,7 +2065,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "价格类型，   \"M\"=77 (market)表示市价， \"L\"=76 (limit)表示限价"
 			},
 			{
 				"Field": "price",
@@ -2076,7 +2076,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托价格"
 			},
 			{
 				"Field": "volume",
@@ -2087,7 +2087,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托手数"
 			},
 			{
 				"Field": "effectedVolume",
@@ -2098,7 +2098,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "已生效手数"
 			},
 			{
 				"Field": "orderRef",
@@ -2109,7 +2109,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当委托未生效时,客户端需要唯一标示该委托,客户端生成一个唯一编码,使用该编码进行标识"
 			},
 			{
 				"Field": "state",
@@ -2120,7 +2120,7 @@
 				"Default": "1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": " status 委托状态 1 表示委托已发送到服务器；2委托创建成功(委托已在交易交易所创建成功)；3委托全部生效；4委托部分生效，剩余部分还在委托队列中；5委托部分生效，剩余委托被用户撤销；5委托部分生效，剩余委托被系统撤销；6委托未生效，用户撤销；7委托未生效，被系统撤销。"
 			},
 			{
 				"Field": "failReason",
@@ -2131,7 +2131,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托失败原因"
 			},
 			{
 				"Field": "failMsg",
@@ -2142,7 +2142,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "失败信息"
 			},
 			{
 				"Field": "generateDate",
@@ -2153,7 +2153,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托创建日期"
 			},
 			{
 				"Field": "generateTime",
@@ -2164,7 +2164,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托创建时间"
 			},
 			{
 				"Field": "updateDate",
@@ -2175,7 +2175,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": " 委托状态最后更新日期"
 			},
 			{
 				"Field": "updateTime",
@@ -2186,7 +2186,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托状态最后更新时间"
 			},
 			{
 				"Field": "realSystemOrderId",
@@ -2197,7 +2197,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "实盘委托编号"
 			},
 			{
 				"Field": "followDirect",
@@ -2208,7 +2208,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "跟单方向   0 表示同向，1 表示反向\t"
 			},
 			{
 				"Field": "multiple",
@@ -2219,7 +2219,7 @@
 				"Default": "1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "跟单倍数"
 			},
 			{
 				"Field": "targetUserID",
@@ -2230,7 +2230,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户"
 			},
 			{
 				"Field": "targetOrderID",
@@ -2241,7 +2241,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "跟单的委托ID"
 			},
 			{
 				"Field": "targetTradeID",
@@ -2252,7 +2252,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户成交ID"
 			},
 			{
 				"Field": "targetPositionID",
@@ -2263,7 +2263,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户的持仓ID"
 			},
 			{
 				"Field": "wOrderID",
@@ -2274,7 +2274,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "外部系统的委托ID"
 			},
 			{
 				"Field": "wClosePositionID",
@@ -2312,7 +2312,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "管理员ID"
 			}
 		]
 	},
@@ -2339,7 +2339,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托ID, 作成交信息时使用"
 			},
 			{
 				"Field": "tradeID",
@@ -2350,7 +2350,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "平仓对应的持仓ID"
 			},
 			{
 				"Field": "userID",
@@ -2361,7 +2361,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "帐户标识（用户ID)， 系统内部使用"
 			},
 			{
 				"Field": "loginName",
@@ -2372,7 +2372,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "登录名"
 			},
 			{
 				"Field": "contractCode",
@@ -2383,7 +2383,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约ID"
 			},
 			{
 				"Field": "contractName",
@@ -2394,7 +2394,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约名"
 			},
 			{
 				"Field": "direction",
@@ -2405,7 +2405,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "买卖方向，  \"B\" (buy)表示买， \"S\" (sell)表示卖"
 			},
 			{
 				"Field": "openOffset",
@@ -2416,7 +2416,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "开平标志，  1 表示开仓， 2 表示平仓， 3 表示平今"
 			},
 			{
 				"Field": "volume",
@@ -2427,7 +2427,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交手数"
 			},
 			{
 				"Field": "frezonVolume",
@@ -2438,7 +2438,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "冻结手数"
 			},
 			{
 				"Field": "tradePrice",
@@ -2449,7 +2449,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交价格"
 			},
 			{
 				"Field": "generateDate",
@@ -2460,7 +2460,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交日期"
 			},
 			{
 				"Field": "generateTime",
@@ -2471,7 +2471,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交时间"
 			},
 			{
 				"Field": "shadowTradeID",
@@ -2482,7 +2482,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交ID"
 			},
 			{
 				"Field": "exchangeTradeID",
@@ -2493,7 +2493,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "交易所成交编号"
 			},
 			{
 				"Field": "targetUserID",
@@ -2504,7 +2504,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户"
 			},
 			{
 				"Field": "targetOrderID",
@@ -2515,7 +2515,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户的委托ID"
 			},
 			{
 				"Field": "targetTradeID",
@@ -2526,7 +2526,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户的成交ID"
 			},
 			{
 				"Field": "targetPositionID",
@@ -2537,7 +2537,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户的持仓ID"
 			},
 			{
 				"Field": "followDirect",
@@ -2548,7 +2548,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "跟单方向方向，  跟单方向    0同向，1反向"
 			},
 			{
 				"Field": "followMultiple",
@@ -2559,7 +2559,7 @@
 				"Default": "1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "跟单倍数"
 			},
 			{
 				"Field": "yesterdayFlag",
@@ -2570,7 +2570,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "0 今仓 1 昨仓"
 			},
 			{
 				"Field": "wOrderID",
@@ -2581,7 +2581,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "外部系统的委托ID"
 			},
 			{
 				"Field": "wTradeID",
@@ -2592,7 +2592,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "外部系统的成交ID"
 			},
 			{
 				"Field": "wPositionID",
@@ -2603,7 +2603,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "外部系统的持仓ID"
 			}
 		]
 	},
@@ -2663,7 +2663,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "品种"
 			}
 		]
 	},
@@ -2690,7 +2690,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户ID（被跟单账户、样本账户)"
 			},
 			{
 				"Field": "managerUserID",
@@ -2701,7 +2701,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "跟单账户ID"
 			},
 			{
 				"Field": "direction",
@@ -2712,7 +2712,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "跟单方向 0同向，1反向"
 			},
 			{
 				"Field": "multiple",
@@ -2723,7 +2723,7 @@
 				"Default": "1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "跟单倍数"
 			},
 			{
 				"Field": "enabled",
@@ -2734,7 +2734,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户是否开启对冲------ 0  不开启，1开启"
 			}
 		]
 	},
@@ -2772,7 +2772,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托ID, 作成交信息时使用"
 			},
 			{
 				"Field": "positionID",
@@ -2783,7 +2783,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "平仓对应的持仓ID"
 			},
 			{
 				"Field": "userID",
@@ -2794,7 +2794,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "帐户标识（用户ID)， 系统内部使用"
 			},
 			{
 				"Field": "loginName",
@@ -2805,7 +2805,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "帐户名"
 			},
 			{
 				"Field": "contractCode",
@@ -2816,7 +2816,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约ID"
 			},
 			{
 				"Field": "contractName",
@@ -2827,7 +2827,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约名"
 			},
 			{
 				"Field": "direction",
@@ -2838,7 +2838,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "买卖方向，  \"B\" (buy)表示买， \"S\" (sell)表示卖"
 			},
 			{
 				"Field": "volume",
@@ -2849,7 +2849,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交手数"
 			},
 			{
 				"Field": "tradePrice",
@@ -2860,7 +2860,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交价格"
 			},
 			{
 				"Field": "priceType",
@@ -2871,7 +2871,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "价格类型 M市价，L限价"
 			},
 			{
 				"Field": "openOffset",
@@ -2882,7 +2882,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "开平标志，  1 表示开仓， 2 表示平仓， 3 表示平今"
 			},
 			{
 				"Field": "turnOver",
@@ -2893,7 +2893,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交额"
 			},
 			{
 				"Field": "generateDate",
@@ -2904,7 +2904,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交日期"
 			},
 			{
 				"Field": "generateTime",
@@ -2915,7 +2915,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交时间"
 			},
 			{
 				"Field": "handleFlag",
@@ -2926,7 +2926,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "处理标志 -1 默认 0 成功  1 失败"
 			},
 			{
 				"Field": "handleCount",
@@ -2937,7 +2937,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "处理次数 默认 0"
 			}
 		]
 	},
@@ -3002,7 +3002,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户ID(被跟单账户ID、样本账户ID)"
 			},
 			{
 				"Field": "managerID",
@@ -3040,7 +3040,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托ID, 作成交信息时使用"
 			},
 			{
 				"Field": "positionID",
@@ -3051,7 +3051,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "平仓对应的持仓ID"
 			},
 			{
 				"Field": "userID",
@@ -3062,7 +3062,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "帐户标识（用户ID)， 系统内部使用"
 			},
 			{
 				"Field": "loginName",
@@ -3073,7 +3073,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "帐户名"
 			},
 			{
 				"Field": "contractCode",
@@ -3084,7 +3084,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约ID"
 			},
 			{
 				"Field": "contractName",
@@ -3095,7 +3095,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约名"
 			},
 			{
 				"Field": "direction",
@@ -3106,7 +3106,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "买卖方向，  \"B\" (buy)表示买， \"S\" (sell)表示卖"
 			},
 			{
 				"Field": "volume",
@@ -3117,7 +3117,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交手数"
 			},
 			{
 				"Field": "tradePrice",
@@ -3128,7 +3128,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交价格"
 			},
 			{
 				"Field": "priceType",
@@ -3139,7 +3139,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "价格类型 M市价，L限价"
 			},
 			{
 				"Field": "openOffset",
@@ -3150,7 +3150,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "开平标志，  1 表示开仓， 2 表示平仓， 3 表示平今"
 			},
 			{
 				"Field": "turnOver",
@@ -3161,7 +3161,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交额"
 			},
 			{
 				"Field": "generateDate",
@@ -3172,7 +3172,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交日期"
 			},
 			{
 				"Field": "generateTime",
@@ -3183,7 +3183,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交时间"
 			},
 			{
 				"Field": "followDirect",
@@ -3194,7 +3194,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "跟单方向    0同向，1反向"
 			},
 			{
 				"Field": "followMultiple",
@@ -3205,7 +3205,7 @@
 				"Default": "1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "跟单倍数"
 			},
 			{
 				"Field": "targetUserID",
@@ -3216,7 +3216,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户"
 			},
 			{
 				"Field": "targetTradeID",
@@ -3227,7 +3227,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户成交ID"
 			},
 			{
 				"Field": "targetOrderID",
@@ -3238,7 +3238,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户委托ID"
 			},
 			{
 				"Field": "targetPositionID",
@@ -3249,7 +3249,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户持仓ID"
 			},
 			{
 				"Field": "exchangeTradeID",
@@ -3260,7 +3260,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "交易所成交编号"
 			},
 			{
 				"Field": "wTradeID",
@@ -3271,7 +3271,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "外部系统的成交ID"
 			},
 			{
 				"Field": "wPositionID",
@@ -3282,7 +3282,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "外部系统的持仓ID"
 			},
 			{
 				"Field": "wOrderID",
@@ -3293,7 +3293,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "外部系统的委托ID"
 			}
 		]
 	},
@@ -3320,7 +3320,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "登录名"
 			},
 			{
 				"Field": "accountName",
@@ -3331,7 +3331,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "账户名称"
 			},
 			{
 				"Field": "password",
@@ -3342,7 +3342,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "密码"
 			},
 			{
 				"Field": "userType",
@@ -3353,7 +3353,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "账户类型，1目标账户（样本账户、被跟单账户），2跟单账户，3管理员"
 			},
 			{
 				"Field": "level",
@@ -3364,7 +3364,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "所属机构的层级，super1，一级代理2，..."
 			},
 			{
 				"Field": "followFlag",
@@ -3375,7 +3375,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "是否开启跟单-------0不开启，1开启"
 			},
 			{
 				"Field": "futureName",
@@ -3386,7 +3386,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "期货公司名称"
 			},
 			{
 				"Field": "counterType",
@@ -3397,7 +3397,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "柜台类型 ctp1，esunny2， ib3，sp4，sub5，cms6，zd7"
 			},
 			{
 				"Field": "isLogicDel",
@@ -3408,7 +3408,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "是否逻辑删除-------0正常，1删除"
 			},
 			{
 				"Field": "registerDate",
@@ -3446,7 +3446,7 @@
 				"Default": "",
 				"Extra": "auto_increment",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "id"
 			},
 			{
 				"Field": "exchangeCode",
@@ -3457,7 +3457,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "交易所ID"
 			},
 			{
 				"Field": "holidayName",
@@ -3468,7 +3468,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "假日名"
 			},
 			{
 				"Field": "beginDate",
@@ -3479,7 +3479,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "假日开始日期"
 			},
 			{
 				"Field": "beginTime",
@@ -3490,7 +3490,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "假日开始时间"
 			},
 			{
 				"Field": "endDate",
@@ -3501,7 +3501,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "假日结束日期"
 			},
 			{
 				"Field": "endTime",
@@ -3512,7 +3512,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "假日结束时间"
 			}
 		]
 	},
@@ -3528,7 +3528,7 @@
 				"Default": "",
 				"Extra": "auto_increment",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "出入金流水号"
 			},
 			{
 				"Field": "UserID",
@@ -3550,7 +3550,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "身份证号"
 			},
 			{
 				"Field": "BankCard",
@@ -3561,7 +3561,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "银行卡号"
 			},
 			{
 				"Field": "BankName",
@@ -3572,7 +3572,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "银行名称"
 			},
 			{
 				"Field": "BankBranch",
@@ -3594,7 +3594,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "提现金额"
 			},
 			{
 				"Field": "PostTime",
@@ -3605,7 +3605,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "提交时间"
 			},
 			{
 				"Field": "IsApproval",
@@ -3616,7 +3616,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "是否已审核(0未审核 1审核 2审核拒绝)"
 			},
 			{
 				"Field": "ApprovalTime",
@@ -3627,7 +3627,7 @@
 				"Default": "0000-00-00 00:00:00",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "审核时间"
 			},
 			{
 				"Field": "RealName",
@@ -3638,7 +3638,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "姓名（实名制）"
 			},
 			{
 				"Field": "ApprovalReason",
@@ -3649,7 +3649,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "审核原因，主要为拒绝审核时使用"
 			},
 			{
 				"Field": "ApprovalID",
@@ -3660,7 +3660,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "审核者UserID"
 			},
 			{
 				"Field": "OutAmountCNY",
@@ -3671,7 +3671,7 @@
 				"Default": "0.000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "人名币出金金额"
 			}
 		]
 	},
@@ -3687,7 +3687,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "机构ID"
 			},
 			{
 				"Field": "currentCommission",
@@ -3698,7 +3698,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当前佣金余额"
 			},
 			{
 				"Field": "historyCommission",
@@ -3709,7 +3709,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "历史佣金总和"
 			},
 			{
 				"Field": "historyOutCommission",
@@ -3720,7 +3720,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "历史佣金出金总和"
 			},
 			{
 				"Field": "todayOutCommission",
@@ -3731,7 +3731,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当日出金总和"
 			},
 			{
 				"Field": "todayCommission",
@@ -3742,7 +3742,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当日佣金收入"
 			},
 			{
 				"Field": "frozenCommission",
@@ -3753,7 +3753,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "冻结资金"
 			}
 		]
 	},
@@ -3769,7 +3769,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "记录ID"
 			},
 			{
 				"Field": "tradeID",
@@ -3791,7 +3791,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "机构ID"
 			},
 			{
 				"Field": "loginName",
@@ -3824,7 +3824,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "买卖方向，  \"B\" (buy)表示买， \"S\" (sell)表示卖'"
 			},
 			{
 				"Field": "openOffset",
@@ -3835,7 +3835,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "开平标志，  1 表示开仓， 2 表示平仓， 3 表示平今"
 			},
 			{
 				"Field": "tradeVolume",
@@ -3857,7 +3857,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "变动类型：1、收取佣金，2、提取佣金"
 			},
 			{
 				"Field": "commissionChange",
@@ -3868,7 +3868,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "佣金变动金额"
 			},
 			{
 				"Field": "tradeDate",
@@ -3879,7 +3879,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "日期"
 			},
 			{
 				"Field": "createDate",
@@ -3890,7 +3890,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "日期"
 			},
 			{
 				"Field": "tradeTime",
@@ -3901,7 +3901,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "时间"
 			},
 			{
 				"Field": "createTime",
@@ -3912,7 +3912,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "时间"
 			},
 			{
 				"Field": "note",
@@ -3923,7 +3923,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "备注，收取时可以填写tradeID"
 			},
 			{
 				"Field": "fee",
@@ -3934,7 +3934,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "手续费"
 			}
 		]
 	},
@@ -3950,7 +3950,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "代理手续费ID(主键)"
 			},
 			{
 				"Field": "feeModuleID",
@@ -3961,7 +3961,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "代理手续费模板ID"
 			},
 			{
 				"Field": "productID",
@@ -3972,7 +3972,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "品种ID"
 			},
 			{
 				"Field": "closeFee",
@@ -3983,7 +3983,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "平仓手续费"
 			},
 			{
 				"Field": "closeTodayFee",
@@ -3994,7 +3994,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "平今仓手续费, 内盘上期所"
 			},
 			{
 				"Field": "openFee",
@@ -4005,7 +4005,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "开仓手续费"
 			},
 			{
 				"Field": "feeType",
@@ -4016,7 +4016,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "手续费收取类型，0按比例，1按固定值"
 			}
 		]
 	},
@@ -4032,7 +4032,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "主键"
 			},
 			{
 				"Field": "institutionID",
@@ -4043,7 +4043,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "代理机构"
 			},
 			{
 				"Field": "mainID",
@@ -4054,7 +4054,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "主账户"
 			}
 		]
 	},
@@ -4070,7 +4070,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "代理手续费模板ID(主键）"
 			},
 			{
 				"Field": "feeModuleName",
@@ -4081,7 +4081,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "代理手续费模板名称"
 			},
 			{
 				"Field": "institutionID",
@@ -4092,7 +4092,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "所属机构ID"
 			},
 			{
 				"Field": "monitorID",
@@ -4103,7 +4103,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控员ID (扩展使用)"
 			},
 			{
 				"Field": "manangerID",
@@ -4114,7 +4114,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "管理员ID (扩展使用)"
 			}
 		]
 	},
@@ -4141,7 +4141,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作者名"
 			},
 			{
 				"Field": "userID",
@@ -4152,7 +4152,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作者"
 			},
 			{
 				"Field": "type",
@@ -4163,7 +4163,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作对象类型"
 			},
 			{
 				"Field": "operatorID",
@@ -4174,7 +4174,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作对象"
 			},
 			{
 				"Field": "operatorName",
@@ -4185,7 +4185,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作对象名"
 			},
 			{
 				"Field": "createDate",
@@ -4300,7 +4300,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作者"
 			},
 			{
 				"Field": "type",
@@ -4311,7 +4311,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作对象类型"
 			},
 			{
 				"Field": "operatorID",
@@ -4322,7 +4322,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作对象"
 			},
 			{
 				"Field": "createDate",
@@ -4426,7 +4426,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "保证金ID(主键)"
 			},
 			{
 				"Field": "marginModuleID",
@@ -4437,7 +4437,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "保证金模板ID"
 			},
 			{
 				"Field": "productID",
@@ -4448,7 +4448,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "品种ID"
 			},
 			{
 				"Field": "buyMargin",
@@ -4459,7 +4459,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "多头保证金"
 			},
 			{
 				"Field": "sellMargin",
@@ -4470,7 +4470,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "空头保证金"
 			},
 			{
 				"Field": "marginType",
@@ -4481,7 +4481,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "保证金收取类型，0按比例，1按固定值"
 			}
 		]
 	},
@@ -4497,7 +4497,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "保证金模板ID"
 			},
 			{
 				"Field": "marginModuleName",
@@ -4508,7 +4508,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "保证金模板名称"
 			},
 			{
 				"Field": "institutionID",
@@ -4519,7 +4519,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "所属机构ID"
 			},
 			{
 				"Field": "monitorID",
@@ -4530,7 +4530,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控员ID (扩展使用)"
 			},
 			{
 				"Field": "manangerID",
@@ -4541,7 +4541,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "管理员ID (扩展使用)"
 			}
 		]
 	},
@@ -4617,7 +4617,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约ID"
 			}
 		]
 	},
@@ -4633,7 +4633,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": " 委托ID"
 			},
 			{
 				"Field": "userID",
@@ -4644,7 +4644,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "帐户标识(用户ID)， 系统内部使用"
 			},
 			{
 				"Field": "contractID",
@@ -4655,7 +4655,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约ID"
 			},
 			{
 				"Field": "state",
@@ -4666,7 +4666,7 @@
 				"Default": "1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": " status 委托状态 1 表示委托已发送到服务器；2委托创建成功(委托已在交易交易所创建成功)；3委托全部生效；4委托部分生效，剩余部分还在委托队列中；5委托部分生效，剩余委托被用户撤销；5委托部分生效，剩余委托被系统撤销；6委托未生效，用户撤销；7委托未生效，被系统撤销。"
 			},
 			{
 				"Field": "orderRef",
@@ -4677,7 +4677,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当委托未生效时,客户端需要唯一标示该委托,客户端生成一个唯一编码,使用该编码进行标识"
 			},
 			{
 				"Field": "contractCode",
@@ -4688,7 +4688,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约代码"
 			},
 			{
 				"Field": "contractName",
@@ -4721,7 +4721,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": " 帐户名"
 			},
 			{
 				"Field": "shadowOrderID",
@@ -4732,7 +4732,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "影子订单编号， 客户端显示使用"
 			},
 			{
 				"Field": "generateDate",
@@ -4743,7 +4743,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托创建日期"
 			},
 			{
 				"Field": "generateTime",
@@ -4754,7 +4754,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托创建时间"
 			},
 			{
 				"Field": "updateDate",
@@ -4765,7 +4765,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": " 委托状态最后更新日期"
 			},
 			{
 				"Field": "updateTime",
@@ -4776,7 +4776,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托状态最后更新时间"
 			},
 			{
 				"Field": "price",
@@ -4787,7 +4787,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托价格"
 			},
 			{
 				"Field": "volume",
@@ -4798,7 +4798,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托手数"
 			},
 			{
 				"Field": "effectedVolume",
@@ -4809,7 +4809,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "已生效手数"
 			},
 			{
 				"Field": "direction",
@@ -4820,7 +4820,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "买卖方向，  \"B\" (buy)表示买， \"S\" (sell)表示卖"
 			},
 			{
 				"Field": "priceType",
@@ -4831,7 +4831,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "价格类型，   \"M\"=77 (market)表示市价， \"L\"=76 (limit)表示限价"
 			},
 			{
 				"Field": "openOffset",
@@ -4842,7 +4842,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "开平标志，  1 表示开仓， 2 表示平仓， 3 表示平今"
 			},
 			{
 				"Field": "averageTradePrice",
@@ -4853,7 +4853,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交均价"
 			},
 			{
 				"Field": "realSystemOrderId",
@@ -4864,7 +4864,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "实盘委托编号"
 			},
 			{
 				"Field": "exchangeCode",
@@ -4875,7 +4875,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": " 交易所 ID"
 			},
 			{
 				"Field": "failReason",
@@ -4886,7 +4886,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托失败原因"
 			},
 			{
 				"Field": "failMsg",
@@ -4897,7 +4897,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "失败信息"
 			},
 			{
 				"Field": "closePositionID",
@@ -4908,7 +4908,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": " 平仓目标ID, 平指定持仓时使用"
 			},
 			{
 				"Field": "frezonMargin",
@@ -4919,7 +4919,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "外盘时候考虑交易汇率变化，这里有个记录值，只供系统计算使用，如果撤单能按照原值退回，按系统基币计算值"
 			},
 			{
 				"Field": "timeConditionType",
@@ -4930,7 +4930,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "时间有效类型，0当日有效，1交割日前有效"
 			},
 			{
 				"Field": "orderFrom",
@@ -4941,7 +4941,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "0PC，1app，2mc，3rc，4条件单(tc)，5止盈止损(TC)，6风控模块(TC)，7修正持仓，8程序单，9修正状态,10自动止盈止损（PC）"
 			},
 			{
 				"Field": "operatorID",
@@ -4952,7 +4952,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作者，实际上就是管理员id或机构ID"
 			},
 			{
 				"Field": "ip",
@@ -4963,7 +4963,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "客户端下单的IP"
 			},
 			{
 				"Field": "mac",
@@ -4974,7 +4974,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "客户端下单的MAC地址"
 			},
 			{
 				"Field": "targetUserID",
@@ -4985,7 +4985,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户"
 			},
 			{
 				"Field": "cancelReason",
@@ -4996,7 +4996,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "0客户撤单，1系统风控撤单"
 			}
 		]
 	},
@@ -5039,7 +5039,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "平仓对应的持仓ID"
 			},
 			{
 				"Field": "userID",
@@ -5050,7 +5050,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "帐户标识（用户ID)， 系统内部使用"
 			},
 			{
 				"Field": "contractID",
@@ -5061,7 +5061,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约ID"
 			},
 			{
 				"Field": "volume",
@@ -5072,7 +5072,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交手数"
 			},
 			{
 				"Field": "frezonVolume",
@@ -5083,7 +5083,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "冻结持仓数量，平指定持仓使用"
 			},
 			{
 				"Field": "tradePrice",
@@ -5094,7 +5094,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交价格"
 			},
 			{
 				"Field": "contractName",
@@ -5105,7 +5105,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约名"
 			},
 			{
 				"Field": "accountName",
@@ -5116,7 +5116,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "帐户名"
 			},
 			{
 				"Field": "generateDate",
@@ -5127,7 +5127,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交日期"
 			},
 			{
 				"Field": "generateTime",
@@ -5138,7 +5138,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交时间"
 			},
 			{
 				"Field": "direction",
@@ -5149,7 +5149,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "买卖方向，  \"B\" (buy)表示买， \"S\" (sell)表示卖"
 			},
 			{
 				"Field": "shadowOrderID",
@@ -5160,7 +5160,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "影子订单编号， 客户端显示使用"
 			},
 			{
 				"Field": "openOffset",
@@ -5171,7 +5171,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "开平标志，  1 表示开仓， 2 表示平仓， 3 表示平今"
 			},
 			{
 				"Field": "exchangeTradeID",
@@ -5182,7 +5182,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "交易所成交编号"
 			},
 			{
 				"Field": "shadowTradeID",
@@ -5193,7 +5193,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "显示成交ID"
 			},
 			{
 				"Field": "yesterdayFlag",
@@ -5204,7 +5204,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "昨仓标志， 0 表示今仓， 1表示昨仓"
 			},
 			{
 				"Field": "contractMargin",
@@ -5215,7 +5215,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "持仓保证金,合约基币"
 			},
 			{
 				"Field": "systemMargin",
@@ -5226,7 +5226,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "持仓保证金，系统基币"
 			},
 			{
 				"Field": "preSettlementPrice",
@@ -5237,7 +5237,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "上次结算价, 昨仓使用，为内盘"
 			},
 			{
 				"Field": "settlementPrice",
@@ -5248,7 +5248,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "今结算价，当日收盘后，为内盘"
 			},
 			{
 				"Field": "orderID",
@@ -5259,7 +5259,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托ID, 作成交信息时使用"
 			},
 			{
 				"Field": "targetUserID",
@@ -5270,7 +5270,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户"
 			}
 		]
 	},
@@ -5286,7 +5286,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "品种ID"
 			},
 			{
 				"Field": "productCode",
@@ -5297,7 +5297,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "品种代码"
 			},
 			{
 				"Field": "productName",
@@ -5308,7 +5308,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "品种名"
 			},
 			{
 				"Field": "exchangeID",
@@ -5319,7 +5319,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "交易所code"
 			},
 			{
 				"Field": "currencyCode",
@@ -5330,7 +5330,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "币种code  USD"
 			},
 			{
 				"Field": "multiple",
@@ -5341,7 +5341,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约乘数"
 			},
 			{
 				"Field": "tickSize",
@@ -5352,7 +5352,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "最小变动单位"
 			},
 			{
 				"Field": "settleTime",
@@ -5363,7 +5363,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "结算时间"
 			},
 			{
 				"Field": "precision",
@@ -5374,7 +5374,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "最小变动单位精度"
 			},
 			{
 				"Field": "isLimit",
@@ -5385,7 +5385,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "是否只支持限价下单，0否，1是"
 			},
 			{
 				"Field": "limitSize",
@@ -5396,7 +5396,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "限价加滑点，代表市价但"
 			}
 		]
 	},
@@ -5412,7 +5412,7 @@
 				"Default": "",
 				"Extra": "auto_increment",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "id"
 			},
 			{
 				"Field": "productID",
@@ -5423,7 +5423,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "品种ID"
 			},
 			{
 				"Field": "tradeTimeBegin",
@@ -5434,7 +5434,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "交易开始时间  默认-1表示不设置时间段(此处不默认0的原因：与夜里0点区分开）"
 			},
 			{
 				"Field": "tradeTimeEnd",
@@ -5445,7 +5445,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "交易结束时间   默认-1表示不设置时间段(此处不默认0的原因：与夜里0点区分开）"
 			}
 		]
 	},
@@ -5461,7 +5461,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "定时强平风控ID"
 			},
 			{
 				"Field": "riskModuleID",
@@ -5472,7 +5472,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控模板ID"
 			},
 			{
 				"Field": "productID",
@@ -5483,7 +5483,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "品种ID"
 			},
 			{
 				"Field": "forceTime1",
@@ -5494,7 +5494,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "强平时间段1    默认-1表示不设置时间段(此处不默认0的原因：与夜里0点区分开）"
 			},
 			{
 				"Field": "forceTime2",
@@ -5505,7 +5505,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "强平时间段2  默认-1表示不设置时间段(此处不默认0的原因：与夜里0点区分开）"
 			},
 			{
 				"Field": "riskStatus",
@@ -5516,7 +5516,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控状态    注： 默认0 表示未触发风控可正常交易的状态"
 			}
 		]
 	},
@@ -5532,7 +5532,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "资金风控ID(主键)"
 			},
 			{
 				"Field": "riskModuleID",
@@ -5543,7 +5543,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控模板ID"
 			},
 			{
 				"Field": "indexType",
@@ -5554,7 +5554,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "指标类型：1按优先资金百分比，2按劣后资金百分比，3按风险度百分比，4按当日亏损绝对值，5按动态权益绝对值"
 			},
 			{
 				"Field": "warning",
@@ -5565,7 +5565,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "预警线  例如按百分比，10.3%， 填写10.3；按固定值100000美元，直接填100000.000000000美元"
 			},
 			{
 				"Field": "close",
@@ -5576,7 +5576,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "强平线  例如按百分比，10.3%， 填写10.3；按固定值100000美元，直接填100000.000000000美元"
 			},
 			{
 				"Field": "forbidenOpen",
@@ -5587,7 +5587,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "禁开线   例如按百分比，10.3%， 填写10.3；按固定值100000美元，直接填100000.000000000美元"
 			}
 		]
 	},
@@ -5614,7 +5614,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "强平日期"
 			},
 			{
 				"Field": "riskMsgTime",
@@ -5625,7 +5625,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "强平时间"
 			},
 			{
 				"Field": "userID",
@@ -5636,7 +5636,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "帐户标识(用户ID)， 系统内部使用"
 			},
 			{
 				"Field": "loginName",
@@ -5658,7 +5658,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "帐户名"
 			},
 			{
 				"Field": "riskMsg",
@@ -5669,7 +5669,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "触发风控信息"
 			},
 			{
 				"Field": "riskMsgType",
@@ -5680,7 +5680,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "触发风控信息类型"
 			}
 		]
 	},
@@ -5696,7 +5696,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控模板ID"
 			},
 			{
 				"Field": "riskModuleName",
@@ -5707,7 +5707,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控模块名称"
 			},
 			{
 				"Field": "institutionID",
@@ -5718,7 +5718,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "所属机构ID"
 			},
 			{
 				"Field": "monitorID",
@@ -5729,7 +5729,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控员ID (扩展使用)"
 			},
 			{
 				"Field": "manangerID",
@@ -5740,7 +5740,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "管理员ID (扩展使用)"
 			}
 		]
 	},
@@ -5756,7 +5756,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "隔夜强平风控ID"
 			},
 			{
 				"Field": "riskModuleID",
@@ -5767,7 +5767,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控模板ID"
 			},
 			{
 				"Field": "productID",
@@ -5778,7 +5778,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "品种ID"
 			},
 			{
 				"Field": "checkTime",
@@ -5789,7 +5789,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "强平时间   默认-1表示不设置时间段(此处不默认0的原因：与夜里0点区分开）"
 			},
 			{
 				"Field": "riskDegree",
@@ -5800,7 +5800,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "劣后风险度"
 			}
 		]
 	},
@@ -5816,7 +5816,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "交易品种数量风控ID"
 			},
 			{
 				"Field": "riskModuleID",
@@ -5827,7 +5827,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控模板 ID"
 			},
 			{
 				"Field": "productID",
@@ -5838,7 +5838,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "品种ID"
 			},
 			{
 				"Field": "maxOpenCnt",
@@ -5849,7 +5849,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "单笔最大下单手数"
 			},
 			{
 				"Field": "maxNetPositionCnt",
@@ -5860,7 +5860,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "最大净持仓手数"
 			},
 			{
 				"Field": "maxTotalPositionCnt",
@@ -5871,7 +5871,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "最大总持仓手数"
 			}
 		]
 	},
@@ -5898,7 +5898,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "手机号"
 			},
 			{
 				"Field": "userID",
@@ -5909,7 +5909,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "用户ID"
 			},
 			{
 				"Field": "smsMsg",
@@ -5920,7 +5920,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "短信内容"
 			},
 			{
 				"Field": "contractCode",
@@ -5931,7 +5931,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约"
 			},
 			{
 				"Field": "productCode",
@@ -5942,7 +5942,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "品种"
 			},
 			{
 				"Field": "firstType",
@@ -5953,7 +5953,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控类型：1行情涨跌幅，2品种定时强平，3品种隔夜强平，4按自有资金基础风控, 5按劣后资金风控，6按优先资金风控，7按风险度风控，8按当日亏损风控，9按动态权益风控"
 			},
 			{
 				"Field": "secondType",
@@ -5964,7 +5964,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "触发类型：1 警告线, 2禁开线，3 强平线"
 			},
 			{
 				"Field": "numTimes",
@@ -5975,7 +5975,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "短信发送的次数（同一类型）"
 			},
 			{
 				"Field": "notifyFlag",
@@ -5986,7 +5986,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "是否已发送通知：默认0未发送，1已发送"
 			},
 			{
 				"Field": "dateTime",
@@ -6035,7 +6035,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "1按优先资金百分比，2按劣后资金百分比，3按风险度百分比，4按当日亏损绝对值，5按动态权益绝对值，6按劣后风险度百分比,7按自有资金值"
 			},
 			{
 				"Field": "realIndex",
@@ -6046,7 +6046,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "实时指标值"
 			},
 			{
 				"Field": "riskStatus",
@@ -6057,7 +6057,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控状态    注： 默认0 表示未触发风控可正常交易的状态"
 			}
 		]
 	},
@@ -6106,7 +6106,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控状态  67595触发风控状态，67596解除风控状态"
 			}
 		]
 	},
@@ -6122,7 +6122,7 @@
 				"Default": "",
 				"Extra": "auto_increment",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "主键"
 			},
 			{
 				"Field": "userID",
@@ -6133,7 +6133,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "机构id"
 			},
 			{
 				"Field": "tradeDate",
@@ -6144,7 +6144,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "交易日期"
 			},
 			{
 				"Field": "settleDate",
@@ -6155,7 +6155,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "结算日期"
 			},
 			{
 				"Field": "settleTime",
@@ -6166,7 +6166,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "结算时间"
 			},
 			{
 				"Field": "settleCommission",
@@ -6177,7 +6177,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "结算佣金"
 			},
 			{
 				"Field": "settleVolume",
@@ -6188,7 +6188,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "结算手数"
 			},
 			{
 				"Field": "settleFee",
@@ -6199,7 +6199,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "结算手续费"
 			}
 		]
 	},
@@ -6237,7 +6237,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "结算日期"
 			},
 			{
 				"Field": "settleTime",
@@ -6248,7 +6248,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "结算时间"
 			},
 			{
 				"Field": "tradeID",
@@ -6259,7 +6259,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "平仓对应的持仓ID"
 			},
 			{
 				"Field": "userID",
@@ -6270,7 +6270,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "帐户标识（用户ID)， 系统内部使用"
 			},
 			{
 				"Field": "contractID",
@@ -6281,7 +6281,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约ID"
 			},
 			{
 				"Field": "volume",
@@ -6292,7 +6292,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交手数"
 			},
 			{
 				"Field": "tradePrice",
@@ -6303,7 +6303,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交价格"
 			},
 			{
 				"Field": "contractName",
@@ -6314,7 +6314,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约名"
 			},
 			{
 				"Field": "accountName",
@@ -6325,7 +6325,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "帐户名"
 			},
 			{
 				"Field": "generateDate",
@@ -6336,7 +6336,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交日期"
 			},
 			{
 				"Field": "generateTime",
@@ -6347,7 +6347,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交时间"
 			},
 			{
 				"Field": "direction",
@@ -6358,7 +6358,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "买卖方向，  \"B\" (buy)表示买， \"S\" (sell)表示卖"
 			},
 			{
 				"Field": "shadowOrderID",
@@ -6369,7 +6369,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "影子订单编号， 客户端显示使用"
 			},
 			{
 				"Field": "openOffset",
@@ -6380,7 +6380,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "开平标志，  1 表示开仓， 2 表示平仓， 3 表示平今"
 			},
 			{
 				"Field": "exchangeTradeID",
@@ -6391,7 +6391,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "交易所成交编号"
 			},
 			{
 				"Field": "shadowTradeID",
@@ -6402,7 +6402,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "显示成交ID"
 			},
 			{
 				"Field": "yesterdayFlag",
@@ -6413,7 +6413,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "昨仓标志， 0 表示今仓， 1表示昨仓"
 			},
 			{
 				"Field": "contractMargin",
@@ -6424,7 +6424,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "持仓保证金,合约基币"
 			},
 			{
 				"Field": "systemMargin",
@@ -6435,7 +6435,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "持仓保证金，系统基币"
 			},
 			{
 				"Field": "preSettlementPrice",
@@ -6446,7 +6446,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "上次结算价, 昨仓使用，为内盘"
 			},
 			{
 				"Field": "settlementPrice",
@@ -6457,7 +6457,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "今结算价, 当日收盘后，为内盘"
 			},
 			{
 				"Field": "orderID",
@@ -6468,7 +6468,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托ID, 作成交信息时使用"
 			},
 			{
 				"Field": "targetUserID",
@@ -6479,7 +6479,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户"
 			},
 			{
 				"Field": "lastPrice",
@@ -6490,7 +6490,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "结算时最新价"
 			},
 			{
 				"Field": "positionGainLoss",
@@ -6501,7 +6501,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "浮动盈亏"
 			},
 			{
 				"Field": "settleGainLoss",
@@ -6512,7 +6512,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "盯市盈亏"
 			}
 		]
 	},
@@ -6539,7 +6539,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "结算日期"
 			},
 			{
 				"Field": "settleTime",
@@ -6550,7 +6550,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "结算时间"
 			},
 			{
 				"Field": "tradeID",
@@ -6572,7 +6572,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "平仓对应的持仓ID"
 			},
 			{
 				"Field": "userID",
@@ -6583,7 +6583,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "帐户标识（用户ID)， 系统内部使用"
 			},
 			{
 				"Field": "contractID",
@@ -6594,7 +6594,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约ID"
 			},
 			{
 				"Field": "volume",
@@ -6605,7 +6605,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交手数"
 			},
 			{
 				"Field": "closeProfit",
@@ -6616,7 +6616,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "平仓盈亏，单位为基币"
 			},
 			{
 				"Field": "tradePrice",
@@ -6627,7 +6627,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交价格"
 			},
 			{
 				"Field": "contractName",
@@ -6638,7 +6638,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约名"
 			},
 			{
 				"Field": "accountName",
@@ -6649,7 +6649,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "帐户名"
 			},
 			{
 				"Field": "generateDate",
@@ -6660,7 +6660,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交日期"
 			},
 			{
 				"Field": "generateTime",
@@ -6671,7 +6671,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交时间"
 			},
 			{
 				"Field": "direction",
@@ -6682,7 +6682,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "买卖方向，  \"B\" (buy)表示买， \"S\" (sell)表示卖"
 			},
 			{
 				"Field": "shadowOrderID",
@@ -6693,7 +6693,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "影子订单编号， 客户端显示使用"
 			},
 			{
 				"Field": "fee",
@@ -6704,7 +6704,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "系统基币手续费"
 			},
 			{
 				"Field": "contractFee",
@@ -6715,7 +6715,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约基币手续费"
 			},
 			{
 				"Field": "priceType",
@@ -6737,7 +6737,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "开平标志，  1 表示开仓， 2 表示平仓， 3 表示平今"
 			},
 			{
 				"Field": "exchangeTradeID",
@@ -6748,7 +6748,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "交易所成交编号"
 			},
 			{
 				"Field": "shadowTradeID",
@@ -6759,7 +6759,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "显示成交ID"
 			},
 			{
 				"Field": "turnOver",
@@ -6770,7 +6770,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交额"
 			},
 			{
 				"Field": "orderID",
@@ -6781,7 +6781,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托ID, 作成交信息时使用"
 			},
 			{
 				"Field": "targetUserID",
@@ -6792,7 +6792,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户"
 			},
 			{
 				"Field": "currency",
@@ -6803,7 +6803,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "币种"
 			}
 		]
 	},
@@ -6830,7 +6830,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "开始日期"
 			},
 			{
 				"Field": "endDate",
@@ -6841,7 +6841,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "结束日期"
 			},
 			{
 				"Field": "settleType",
@@ -6852,7 +6852,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "类型：0日结算；1月结算；2按日期段"
 			},
 			{
 				"Field": "userID",
@@ -6863,7 +6863,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "账户ID"
 			},
 			{
 				"Field": "context",
@@ -6874,7 +6874,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "结算内容"
 			}
 		]
 	},
@@ -6912,7 +6912,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "用户保证金"
 			},
 			{
 				"Field": "equipment",
@@ -6923,7 +6923,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "配置额度"
 			},
 			{
 				"Field": "preBalance",
@@ -6934,7 +6934,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "静态权益"
 			},
 			{
 				"Field": "currentTotal",
@@ -6945,7 +6945,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当前资金结余"
 			},
 			{
 				"Field": "todayCloseProfit",
@@ -6956,7 +6956,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当日平仓盈亏"
 			},
 			{
 				"Field": "todayFee",
@@ -6967,7 +6967,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当日手续费"
 			},
 			{
 				"Field": "todayInMoney",
@@ -6978,7 +6978,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当日入金"
 			},
 			{
 				"Field": "todayOutMoney",
@@ -6989,7 +6989,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当如出金"
 			},
 			{
 				"Field": "historyProfit",
@@ -7000,7 +7000,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "历史盈亏总和"
 			},
 			{
 				"Field": "historyFee",
@@ -7011,7 +7011,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "历史手续费总和"
 			},
 			{
 				"Field": "historyOutMoney",
@@ -7022,7 +7022,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "历史出金总和"
 			},
 			{
 				"Field": "historyInMoney",
@@ -7033,7 +7033,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "历史入金总和"
 			},
 			{
 				"Field": "frozenMargin",
@@ -7044,7 +7044,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "冻结保证金"
 			},
 			{
 				"Field": "holdMargin",
@@ -7055,7 +7055,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "持仓保证金"
 			},
 			{
 				"Field": "positionGainLoss",
@@ -7066,7 +7066,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "浮动盈亏"
 			},
 			{
 				"Field": "settleGainLoss",
@@ -7077,7 +7077,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "盯市盈亏"
 			},
 			{
 				"Field": "settleDate",
@@ -7110,7 +7110,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "冻结资金"
 			}
 		]
 	},
@@ -7137,7 +7137,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "用户ID"
 			},
 			{
 				"Field": "loginName",
@@ -7148,7 +7148,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "用户名"
 			},
 			{
 				"Field": "accountName",
@@ -7159,7 +7159,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "账户名"
 			},
 			{
 				"Field": "preBalance",
@@ -7170,7 +7170,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "静态权益"
 			},
 			{
 				"Field": "userDeposit",
@@ -7181,7 +7181,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "用户保证金,劣后资金"
 			},
 			{
 				"Field": "equipment",
@@ -7192,7 +7192,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "配资额度，优先资金"
 			},
 			{
 				"Field": "availableMoney",
@@ -7203,7 +7203,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "可用资金"
 			},
 			{
 				"Field": "holdMargin",
@@ -7214,7 +7214,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "占用保证金"
 			},
 			{
 				"Field": "fee",
@@ -7225,7 +7225,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当日手续费"
 			},
 			{
 				"Field": "closeProfit",
@@ -7236,7 +7236,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "平仓盈亏"
 			},
 			{
 				"Field": "currentBalance",
@@ -7247,7 +7247,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当日权益"
 			},
 			{
 				"Field": "inMoney",
@@ -7258,7 +7258,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当日入金总和"
 			},
 			{
 				"Field": "outMoney",
@@ -7269,7 +7269,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当日出金总和"
 			},
 			{
 				"Field": "riskDegree",
@@ -7280,7 +7280,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风险度"
 			},
 			{
 				"Field": "settleGainLoss",
@@ -7291,7 +7291,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "盯市盈亏"
 			},
 			{
 				"Field": "settleDate",
@@ -7302,7 +7302,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "日期向前退一天"
 			},
 			{
 				"Field": "settleTime",
@@ -7362,7 +7362,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "触发类型：1最新价 2对手价"
 			},
 			{
 				"Field": "triggerLossPrice",
@@ -7395,7 +7395,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "时间有效类型，0当日有效，1交割日前有效"
 			},
 			{
 				"Field": "orderType",
@@ -7406,7 +7406,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "下单类型：1指定价（下单限价）2对手价（下单限价）3市价（下单市价）"
 			},
 			{
 				"Field": "direction",
@@ -7417,7 +7417,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "买卖方向，  \"B\" (buy)表示买， \"S\" (sell)表示卖"
 			},
 			{
 				"Field": "volume",
@@ -7439,7 +7439,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "指定价有效"
 			},
 			{
 				"Field": "state",
@@ -7450,7 +7450,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "止盈止损单状态：0 新建（工作中）1已触发（已发委托）2失败3删除"
 			},
 			{
 				"Field": "stopProfitLossStyle",
@@ -7472,7 +7472,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "下单来源"
 			},
 			{
 				"Field": "createDate",
@@ -7549,7 +7549,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "内部使用"
 			},
 			{
 				"Field": "flotLoss",
@@ -7560,7 +7560,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "浮动止损价位"
 			},
 			{
 				"Field": "stopProfitLossType",
@@ -7571,7 +7571,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "止盈止损类型   0 无浮动止损，1 有浮动止损，2自动止盈止损"
 			},
 			{
 				"Field": "orderAddPrice",
@@ -7582,7 +7582,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "下单追价"
 			},
 			{
 				"Field": "lastPrice",
@@ -7593,7 +7593,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "最新价"
 			}
 		]
 	},
@@ -7642,7 +7642,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "触发类型：1最新价 2对手价"
 			},
 			{
 				"Field": "triggerLossPrice",
@@ -7675,7 +7675,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "时间有效类型，0当日有效，1交割日前有效"
 			},
 			{
 				"Field": "orderType",
@@ -7686,7 +7686,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "下单类型：1指定价（下单限价）2对手价（下单限价）3市价（下单市价）"
 			},
 			{
 				"Field": "direction",
@@ -7697,7 +7697,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "买卖方向，  \"B\" (buy)表示买， \"S\" (sell)表示卖"
 			},
 			{
 				"Field": "volume",
@@ -7719,7 +7719,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "指定价有效"
 			},
 			{
 				"Field": "state",
@@ -7730,7 +7730,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "止盈止损单状态：0 新建（工作中）1已触发（已发委托）2失败3删除"
 			},
 			{
 				"Field": "stopProfitLossStyle",
@@ -7752,7 +7752,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "下单来源"
 			},
 			{
 				"Field": "createDate",
@@ -7829,7 +7829,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "内部使用"
 			},
 			{
 				"Field": "flotLoss",
@@ -7840,7 +7840,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "浮动止损价位"
 			},
 			{
 				"Field": "stopProfitLossType",
@@ -7851,7 +7851,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "止盈止损类型   0 无浮动止损，1 有浮动止损，2自动止盈止损"
 			},
 			{
 				"Field": "orderAddPrice",
@@ -7862,7 +7862,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "下单追价"
 			},
 			{
 				"Field": "lastPrice",
@@ -7873,7 +7873,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "最新价"
 			}
 		]
 	},
@@ -7889,7 +7889,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "交易所id"
 			},
 			{
 				"Field": "exchangeCode",
@@ -7900,7 +7900,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "交易所代码"
 			},
 			{
 				"Field": "exchangeName",
@@ -7911,7 +7911,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "交易所名称"
 			}
 		]
 	},
@@ -7938,7 +7938,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "币种代码：USD  HKD"
 			},
 			{
 				"Field": "currencyName",
@@ -7949,7 +7949,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "币种中文名  美元"
 			},
 			{
 				"Field": "outExchangeRate",
@@ -7960,7 +7960,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "出金汇率"
 			},
 			{
 				"Field": "inExchangeRate",
@@ -7971,7 +7971,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "入金汇率"
 			},
 			{
 				"Field": "commissionExchangeRate",
@@ -7982,7 +7982,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "佣金出金汇率"
 			},
 			{
 				"Field": "tradeExchangeRate",
@@ -7993,7 +7993,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "交易汇率"
 			},
 			{
 				"Field": "isBase",
@@ -8004,7 +8004,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "是否是基币，1为基币"
 			}
 		]
 	},
@@ -8020,7 +8020,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "机构层级"
 			},
 			{
 				"Field": "institutionName",
@@ -8031,7 +8031,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "该级机构名称"
 			}
 		]
 	},
@@ -8047,7 +8047,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "支付渠道ID"
 			},
 			{
 				"Field": "payChannelName",
@@ -8058,7 +8058,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "支付渠道名"
 			},
 			{
 				"Field": "outFee",
@@ -8069,7 +8069,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "出金手续费"
 			},
 			{
 				"Field": "inFee",
@@ -8080,7 +8080,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "入金手续费"
 			}
 		]
 	},
@@ -8096,7 +8096,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "涨跌幅风控ID"
 			},
 			{
 				"Field": "optionType",
@@ -8107,7 +8107,7 @@
 				"Default": "1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "涨跌类型： 1表示涨跌幅"
 			},
 			{
 				"Field": "productID",
@@ -8118,7 +8118,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "品种ID(扩展使用)"
 			},
 			{
 				"Field": "rate",
@@ -8129,7 +8129,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "涨跌幅百分比， 例如10.3%， 填写10.3"
 			},
 			{
 				"Field": "orderLimit",
@@ -8140,7 +8140,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "是否禁止开仓 0允许开仓 1禁止开仓 2禁止开反向仓 3禁止平仓"
 			},
 			{
 				"Field": "dealMethod",
@@ -8151,7 +8151,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "仓位调整 0不调整，1全部清仓，2清反向仓"
 			}
 		]
 	},
@@ -8178,7 +8178,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控状态"
 			}
 		]
 	},
@@ -8205,7 +8205,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "结算日期"
 			},
 			{
 				"Field": "contractID",
@@ -8216,7 +8216,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约ID"
 			},
 			{
 				"Field": "contractPrice",
@@ -8227,7 +8227,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "结算价格"
 			}
 		]
 	},
@@ -8292,7 +8292,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "平仓对应的持仓ID"
 			},
 			{
 				"Field": "userID",
@@ -8303,7 +8303,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "帐户标识（用户ID)， 系统内部使用"
 			},
 			{
 				"Field": "contractID",
@@ -8314,7 +8314,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约ID"
 			},
 			{
 				"Field": "volume",
@@ -8325,7 +8325,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交手数"
 			},
 			{
 				"Field": "closeProfit",
@@ -8336,7 +8336,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "平仓盈亏，单位为基币"
 			},
 			{
 				"Field": "tradePrice",
@@ -8347,7 +8347,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交价格"
 			},
 			{
 				"Field": "contractName",
@@ -8358,7 +8358,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约名"
 			},
 			{
 				"Field": "accountName",
@@ -8369,7 +8369,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "帐户名"
 			},
 			{
 				"Field": "generateDate",
@@ -8380,7 +8380,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交日期"
 			},
 			{
 				"Field": "generateTime",
@@ -8391,7 +8391,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交时间"
 			},
 			{
 				"Field": "direction",
@@ -8402,7 +8402,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "买卖方向，  \"B\" (buy)表示买， \"S\" (sell)表示卖"
 			},
 			{
 				"Field": "shadowOrderID",
@@ -8413,7 +8413,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "影子订单编号， 客户端显示使用"
 			},
 			{
 				"Field": "fee",
@@ -8424,7 +8424,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "系统基币手续费"
 			},
 			{
 				"Field": "contractFee",
@@ -8435,7 +8435,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "合约基币手续费"
 			},
 			{
 				"Field": "priceType",
@@ -8457,7 +8457,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "开平标志，  1 表示开仓， 2 表示平仓， 3 表示平今"
 			},
 			{
 				"Field": "exchangeTradeID",
@@ -8468,7 +8468,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "交易所成交编号"
 			},
 			{
 				"Field": "shadowTradeID",
@@ -8479,7 +8479,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "显示成交ID"
 			},
 			{
 				"Field": "turnOver",
@@ -8490,7 +8490,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "成交额"
 			},
 			{
 				"Field": "orderID",
@@ -8501,7 +8501,7 @@
 				"Default": "0",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "委托ID, 作成交信息时使用"
 			},
 			{
 				"Field": "targetUserID",
@@ -8512,7 +8512,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "目标账户"
 			},
 			{
 				"Field": "currency",
@@ -8523,7 +8523,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "币种"
 			}
 		]
 	},
@@ -8594,7 +8594,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "真实姓名"
 			},
 			{
 				"Field": "isIdentify",
@@ -8605,7 +8605,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "是否实名认证，0未认证，1认证"
 			}
 		]
 	},
@@ -8632,7 +8632,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "用户保证金"
 			},
 			{
 				"Field": "equipment",
@@ -8643,7 +8643,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "配置额度"
 			},
 			{
 				"Field": "preBalance",
@@ -8654,7 +8654,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "静态权益"
 			},
 			{
 				"Field": "currentTotal",
@@ -8665,7 +8665,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当前资金结余"
 			},
 			{
 				"Field": "frozenOutMoney",
@@ -8676,7 +8676,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "冻结资金"
 			},
 			{
 				"Field": "todayCloseProfit",
@@ -8687,7 +8687,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当日平仓盈亏"
 			},
 			{
 				"Field": "todayFee",
@@ -8698,7 +8698,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当日手续费"
 			},
 			{
 				"Field": "todayInMoney",
@@ -8709,7 +8709,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当日入金"
 			},
 			{
 				"Field": "todayOutMoney",
@@ -8720,7 +8720,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "当如出金"
 			},
 			{
 				"Field": "historyProfit",
@@ -8731,7 +8731,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "历史盈亏总和"
 			},
 			{
 				"Field": "historyFee",
@@ -8742,7 +8742,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "历史手续费总和"
 			},
 			{
 				"Field": "historyOutMoney",
@@ -8753,7 +8753,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "历史出金总和"
 			},
 			{
 				"Field": "historyInMoney",
@@ -8764,7 +8764,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "历史入金总和"
 			}
 		]
 	},
@@ -8780,7 +8780,7 @@
 				"Default": "",
 				"Extra": "auto_increment",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "主键"
 			},
 			{
 				"Field": "userID",
@@ -8791,7 +8791,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "userID"
 			},
 			{
 				"Field": "changeType",
@@ -8802,7 +8802,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "资金变更类型： 1 减自有资金； 2 减配资额度； 3 红冲； 4 加自有资金 5.加配资额度 6 蓝补； 7 变易手续费； 8 平仓盈亏; 9 线上入金 10.线上出金"
 			},
 			{
 				"Field": "moneyChange",
@@ -8813,7 +8813,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "资金改变金额"
 			},
 			{
 				"Field": "changeTime",
@@ -8824,7 +8824,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "改变时间"
 			},
 			{
 				"Field": "changeDate",
@@ -8835,7 +8835,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "改变日期"
 			},
 			{
 				"Field": "operatorID",
@@ -8846,7 +8846,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "操作人"
 			},
 			{
 				"Field": "note",
@@ -8857,7 +8857,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "备注：对于成交，可以填写成交编号"
 			}
 		]
 	},
@@ -8884,7 +8884,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "机构ID"
 			},
 			{
 				"Field": "mainUserID",
@@ -8895,7 +8895,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "主账户ID"
 			},
 			{
 				"Field": "marginModuleID",
@@ -8906,7 +8906,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "保证金模板ID"
 			},
 			{
 				"Field": "feeModuleID",
@@ -8917,7 +8917,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "手续费模板ID"
 			},
 			{
 				"Field": "riskModuleID",
@@ -8928,7 +8928,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控模板ID"
 			}
 		]
 	},
@@ -8955,7 +8955,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "机构ID"
 			},
 			{
 				"Field": "monitorID",
@@ -8966,7 +8966,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控员ID (扩展使用)"
 			},
 			{
 				"Field": "manangerID",
@@ -8977,7 +8977,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "管理员ID (扩展使用)"
 			},
 			{
 				"Field": "mainID",
@@ -8988,7 +8988,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "主账户"
 			},
 			{
 				"Field": "marginModuleID",
@@ -8999,7 +8999,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "保证金模板ID"
 			},
 			{
 				"Field": "feeModuleID",
@@ -9010,7 +9010,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "手续费模板ID"
 			},
 			{
 				"Field": "riskModuleID",
@@ -9021,7 +9021,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "风控模板ID"
 			},
 			{
 				"Field": "authrityModuleID",
@@ -9032,7 +9032,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "权限模板"
 			},
 			{
 				"Field": "riskModuleAuthrityID",
@@ -9043,7 +9043,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "机构风控模板权限"
 			},
 			{
 				"Field": "warning",
@@ -9054,7 +9054,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "劣后资金指标：  预警线  例如按百分比，10.3%， 填写10.3；按固定值100000美元，直接填100000.000000000美元"
 			},
 			{
 				"Field": "close",
@@ -9065,7 +9065,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "劣后资金指标：  强平线  例如按百分比，10.3%， 填写10.3；按固定值100000美元，直接填100000.000000000美元"
 			},
 			{
 				"Field": "forbidenOpen",
@@ -9076,7 +9076,7 @@
 				"Default": "0.00000000",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "劣后资金指标：  禁开线   例如按百分比，10.3%， 填写10.3；按固定值100000美元，直接填100000.000000000美元"
 			}
 		]
 	},
@@ -9103,7 +9103,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "1交易员，2风控员，3管理员，4机构，5资金账户"
 			},
 			{
 				"Field": "level",
@@ -9114,7 +9114,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "所属机构的层级，super1，一级代理2，二级代理3，..."
 			},
 			{
 				"Field": "loginName",
@@ -9191,7 +9191,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "是否逻辑删除0正常，1删除"
 			},
 			{
 				"Field": "registerDate",
@@ -9224,7 +9224,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "主账户个数"
 			},
 			{
 				"Field": "subIDNum",
@@ -9235,7 +9235,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "子账户个数"
 			},
 			{
 				"Field": "counterType",
@@ -9246,7 +9246,7 @@
 				"Default": "",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "柜台类型 ctp1，esunny2， ib3，sp4，sub5，cms6，zd7"
 			},
 			{
 				"Field": "alloType",
@@ -9257,7 +9257,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": " 配资类型  0 \"按月配资\"、1 \"按天配资\"、2 \"免息配资\"、3 \"免费体验\""
 			},
 			{
 				"Field": "validEndDate",
@@ -9268,7 +9268,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "账户有效截止日期"
 			},
 			{
 				"Field": "validEndTime",
@@ -9279,7 +9279,7 @@
 				"Default": "-1",
 				"Extra": "",
 				"Privileges": "select,insert,update,references",
-				"Comment": ""
+				"Comment": "账户有效截止时间"
 			}
 		]
 	}

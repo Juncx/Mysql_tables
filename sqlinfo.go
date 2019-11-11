@@ -97,6 +97,7 @@ func ShowColumn(engine *xorm.Engine, table string) (*TableDesc, error) {
 			Default:    string(v["Default"]),
 			Extra:      string(v["Extra"]),
 			Privileges: string(v["Privileges"]),
+			Comment:    string(v["Comment"]),
 		}
 		cols = append(cols, tmp)
 	}
@@ -120,17 +121,42 @@ func ShowAllColumns(engine *xorm.Engine) ([]*TableDesc, error) {
 	return tableDesc, err
 }
 
-func main() {
-	// create mysql engine
-	engine, err := NewEngine()
-	if err != nil {
-		panic(err)
-	}
-
+func TablesColAttr(engine *xorm.Engine) {
 	tDescs, _ := ShowAllColumns(engine)
 	b, err := json.MarshalIndent(tDescs, "", "\t")
 	if err != nil {
 		panic(err)
 	}
 	ioutil.WriteFile("tables.json", b, 0666)
+}
+
+func main() {
+	// create mysql engine
+	engine, err := NewEngine()
+	if err != nil {
+		panic(err)
+	}
+	_ = engine
+
+	//TablesColAttr(engine)
+	GenAllTabMapHpp(engine)
+	/*
+	 *
+	 *    col, err := ShowColumn(engine, "users")
+	 *    if err != nil {
+	 *        panic(err)
+	 *    }
+	 *
+	 *    for _, v := range col.Columns {
+	 *        t := fmt.Sprintf("U_%s,", v.Field)
+	 *        t = strings.ToUpper(t)
+	 *        fmt.Println(t)
+	 *    }
+	 *
+	 *    for _, v := range col.Columns {
+	 *        t := fmt.Sprintf("\"%s\",", v.Field)
+	 *        fmt.Println(t)
+	 *    }
+	 */
+
 }
