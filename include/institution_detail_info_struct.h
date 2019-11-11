@@ -1,19 +1,19 @@
 #pragma once
 
 enum INSTITUTION_DETAIL_INFO_TABLE_DESC : int {
-	E_FEEID = 0,
-	E_FEEMODULEID,
-	E_PRODUCTID,
-	E_CLOSEFEE,
-	E_CLOSETODAYFEE,
-	E_OPENFEE,
-	E_FEETYPE,
-	E_END
+	E_INDEIN_FEEID = 0,
+	E_INDEIN_FEEMODULEID,
+	E_INDEIN_PRODUCTID,
+	E_INDEIN_CLOSEFEE,
+	E_INDEIN_CLOSETODAYFEE,
+	E_INDEIN_OPENFEE,
+	E_INDEIN_FEETYPE,
+	E_INDEIN_END
 };
 
 const char* const INSTITUTION_DETAIL_INFO_TABLE = "institution_detail_info";
 
-const char* const INSTITUTION_DETAIL_INFO_TABLE_COLS[E_END] = {
+const char* const INSTITUTION_DETAIL_INFO_TABLE_COLS[E_INDEIN_END] = {
 	"feeID",
 	"feeModuleID",
 	"productID",
@@ -23,7 +23,7 @@ const char* const INSTITUTION_DETAIL_INFO_TABLE_COLS[E_END] = {
 	"feeType",
 };
 
-const char* const INSTITUTION_DETAIL_INFO_TABLE_COLS_ATTR[E_END] = {
+const char* const INSTITUTION_DETAIL_INFO_TABLE_COLS_ATTR[E_INDEIN_END] = {
 	"varchar(64) COLLATE utf8_general_ci NOT NULL COMMENT '代理手续费ID(主键)'",
 	"varchar(64) COLLATE utf8_bin NOT NULL COMMENT '代理手续费模板ID'",
 	"varchar(64) COLLATE utf8_bin NOT NULL COMMENT '品种ID'",

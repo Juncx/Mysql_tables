@@ -1,26 +1,26 @@
 #pragma once
 
 enum LOG_RECORDS_TABLE_DESC : int {
-	E_LOGID = 0,
-	E_USERNAME,
-	E_USERID,
-	E_TYPE,
-	E_OPERATORID,
-	E_OPERATORNAME,
-	E_CREATEDATE,
-	E_CREATETIME,
-	E_DESCRIBETEXT,
-	E_CONTENT,
-	E_SYSMODULE,
-	E_SYSMODULENAME,
-	E_MAC,
-	E_IP,
-	E_END
+	E_LORE_LOGID = 0,
+	E_LORE_USERNAME,
+	E_LORE_USERID,
+	E_LORE_TYPE,
+	E_LORE_OPERATORID,
+	E_LORE_OPERATORNAME,
+	E_LORE_CREATEDATE,
+	E_LORE_CREATETIME,
+	E_LORE_DESCRIBETEXT,
+	E_LORE_CONTENT,
+	E_LORE_SYSMODULE,
+	E_LORE_SYSMODULENAME,
+	E_LORE_MAC,
+	E_LORE_IP,
+	E_LORE_END
 };
 
 const char* const LOG_RECORDS_TABLE = "log_records";
 
-const char* const LOG_RECORDS_TABLE_COLS[E_END] = {
+const char* const LOG_RECORDS_TABLE_COLS[E_LORE_END] = {
 	"logID",
 	"UserName",
 	"userID",
@@ -37,7 +37,7 @@ const char* const LOG_RECORDS_TABLE_COLS[E_END] = {
 	"ip",
 };
 
-const char* const LOG_RECORDS_TABLE_COLS_ATTR[E_END] = {
+const char* const LOG_RECORDS_TABLE_COLS_ATTR[E_LORE_END] = {
 	"int(10) unsigned NOT NULL",
 	"varchar(64) COLLATE utf8_bin NOT NULL COMMENT '操作者名'",
 	"varchar(64) COLLATE utf8_bin NOT NULL COMMENT '操作者'",

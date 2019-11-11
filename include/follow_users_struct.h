@@ -1,24 +1,24 @@
 #pragma once
 
 enum FOLLOW_USERS_TABLE_DESC : int {
-	E_USERID = 0,
-	E_LOGINNAME,
-	E_ACCOUNTNAME,
-	E_PASSWORD,
-	E_USERTYPE,
-	E_LEVEL,
-	E_FOLLOWFLAG,
-	E_FUTURENAME,
-	E_COUNTERTYPE,
-	E_ISLOGICDEL,
-	E_REGISTERDATE,
-	E_REGISTERTIME,
-	E_END
+	E_FOUS_USERID = 0,
+	E_FOUS_LOGINNAME,
+	E_FOUS_ACCOUNTNAME,
+	E_FOUS_PASSWORD,
+	E_FOUS_USERTYPE,
+	E_FOUS_LEVEL,
+	E_FOUS_FOLLOWFLAG,
+	E_FOUS_FUTURENAME,
+	E_FOUS_COUNTERTYPE,
+	E_FOUS_ISLOGICDEL,
+	E_FOUS_REGISTERDATE,
+	E_FOUS_REGISTERTIME,
+	E_FOUS_END
 };
 
 const char* const FOLLOW_USERS_TABLE = "follow_users";
 
-const char* const FOLLOW_USERS_TABLE_COLS[E_END] = {
+const char* const FOLLOW_USERS_TABLE_COLS[E_FOUS_END] = {
 	"userID",
 	"loginName",
 	"accountName",
@@ -33,7 +33,7 @@ const char* const FOLLOW_USERS_TABLE_COLS[E_END] = {
 	"registerTime",
 };
 
-const char* const FOLLOW_USERS_TABLE_COLS_ATTR[E_END] = {
+const char* const FOLLOW_USERS_TABLE_COLS_ATTR[E_FOUS_END] = {
 	"varchar(64) COLLATE utf8_general_ci NOT NULL",
 	"varchar(32) COLLATE utf8_bin NOT NULL COMMENT '登录名'",
 	"varchar(32) COLLATE utf8_bin NOT NULL COMMENT '账户名称'",

@@ -1,18 +1,18 @@
 #pragma once
 
 enum SETTLE_USER_CONTEXT_RECORD_TABLE_DESC : int {
-	E_ID = 0,
-	E_STARTDATE,
-	E_ENDDATE,
-	E_SETTLETYPE,
-	E_USERID,
-	E_CONTEXT,
-	E_END
+	E_SEUSCORE_ID = 0,
+	E_SEUSCORE_STARTDATE,
+	E_SEUSCORE_ENDDATE,
+	E_SEUSCORE_SETTLETYPE,
+	E_SEUSCORE_USERID,
+	E_SEUSCORE_CONTEXT,
+	E_SEUSCORE_END
 };
 
 const char* const SETTLE_USER_CONTEXT_RECORD_TABLE = "settle_user_context_record";
 
-const char* const SETTLE_USER_CONTEXT_RECORD_TABLE_COLS[E_END] = {
+const char* const SETTLE_USER_CONTEXT_RECORD_TABLE_COLS[E_SEUSCORE_END] = {
 	"id",
 	"startDate",
 	"endDate",
@@ -21,7 +21,7 @@ const char* const SETTLE_USER_CONTEXT_RECORD_TABLE_COLS[E_END] = {
 	"context",
 };
 
-const char* const SETTLE_USER_CONTEXT_RECORD_TABLE_COLS_ATTR[E_END] = {
+const char* const SETTLE_USER_CONTEXT_RECORD_TABLE_COLS_ATTR[E_SEUSCORE_END] = {
 	"int(10) unsigned NOT NULL",
 	"int(10) DEFAULT '-1' NOT NULL COMMENT '开始日期'",
 	"int(10) DEFAULT '-1' NOT NULL COMMENT '结束日期'",

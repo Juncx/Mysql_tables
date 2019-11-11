@@ -1,18 +1,18 @@
 #pragma once
 
 enum RISK_INDEX_INFO_TABLE_DESC : int {
-	E_RISKID = 0,
-	E_RISKMODULEID,
-	E_INDEXTYPE,
-	E_WARNING,
-	E_CLOSE,
-	E_FORBIDENOPEN,
-	E_END
+	E_RIININ_RISKID = 0,
+	E_RIININ_RISKMODULEID,
+	E_RIININ_INDEXTYPE,
+	E_RIININ_WARNING,
+	E_RIININ_CLOSE,
+	E_RIININ_FORBIDENOPEN,
+	E_RIININ_END
 };
 
 const char* const RISK_INDEX_INFO_TABLE = "risk_index_info";
 
-const char* const RISK_INDEX_INFO_TABLE_COLS[E_END] = {
+const char* const RISK_INDEX_INFO_TABLE_COLS[E_RIININ_END] = {
 	"riskID",
 	"riskModuleID",
 	"indexType",
@@ -21,7 +21,7 @@ const char* const RISK_INDEX_INFO_TABLE_COLS[E_END] = {
 	"forbidenOpen",
 };
 
-const char* const RISK_INDEX_INFO_TABLE_COLS_ATTR[E_END] = {
+const char* const RISK_INDEX_INFO_TABLE_COLS_ATTR[E_RIININ_END] = {
 	"varchar(64) COLLATE utf8_general_ci NOT NULL COMMENT '资金风控ID(主键)'",
 	"varchar(64) COLLATE utf8_general_ci NOT NULL COMMENT '风控模板ID'",
 	"tinyint(2) DEFAULT '0' NOT NULL COMMENT '指标类型：1按优先资金百分比，2按劣后资金百分比，3按风险度百分比，4按当日亏损绝对值，5按动态权益绝对值'",

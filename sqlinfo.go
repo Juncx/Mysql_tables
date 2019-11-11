@@ -142,6 +142,15 @@ func main() {
 	GenAllTabMapHpp(engine)
 	/*
 	 *
+	 *    t, _ := ShowTables(engine)
+	 *    for _, v := range t {
+	 *        fmt.Println(v)
+	 *        //fmt.Println(EnumPrefix(v))
+	 *    }
+	 */
+
+	/*
+	 *
 	 *    col, err := ShowColumn(engine, "users")
 	 *    if err != nil {
 	 *        panic(err)

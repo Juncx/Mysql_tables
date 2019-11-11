@@ -1,23 +1,23 @@
 #pragma once
 
 enum RISK_SMS_RECORDS_TABLE_DESC : int {
-	E_ID = 0,
-	E_PHONENO,
-	E_USERID,
-	E_SMSMSG,
-	E_CONTRACTCODE,
-	E_PRODUCTCODE,
-	E_FIRSTTYPE,
-	E_SECONDTYPE,
-	E_NUMTIMES,
-	E_NOTIFYFLAG,
-	E_DATETIME,
-	E_END
+	E_RISMRE_ID = 0,
+	E_RISMRE_PHONENO,
+	E_RISMRE_USERID,
+	E_RISMRE_SMSMSG,
+	E_RISMRE_CONTRACTCODE,
+	E_RISMRE_PRODUCTCODE,
+	E_RISMRE_FIRSTTYPE,
+	E_RISMRE_SECONDTYPE,
+	E_RISMRE_NUMTIMES,
+	E_RISMRE_NOTIFYFLAG,
+	E_RISMRE_DATETIME,
+	E_RISMRE_END
 };
 
 const char* const RISK_SMS_RECORDS_TABLE = "risk_sms_records";
 
-const char* const RISK_SMS_RECORDS_TABLE_COLS[E_END] = {
+const char* const RISK_SMS_RECORDS_TABLE_COLS[E_RISMRE_END] = {
 	"id",
 	"phoneNo",
 	"userID",
@@ -31,7 +31,7 @@ const char* const RISK_SMS_RECORDS_TABLE_COLS[E_END] = {
 	"dateTime",
 };
 
-const char* const RISK_SMS_RECORDS_TABLE_COLS_ATTR[E_END] = {
+const char* const RISK_SMS_RECORDS_TABLE_COLS_ATTR[E_RISMRE_END] = {
 	"int(10) unsigned NOT NULL",
 	"varchar(12) COLLATE utf8_general_ci NOT NULL COMMENT '手机号'",
 	"varchar(32) COLLATE utf8_general_ci NOT NULL COMMENT '用户ID'",

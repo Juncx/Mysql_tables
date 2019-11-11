@@ -1,18 +1,18 @@
 #pragma once
 
 enum SYS_RISK_UP_DOWN_INFO_TABLE_DESC : int {
-	E_UPDOWNID = 0,
-	E_OPTIONTYPE,
-	E_PRODUCTID,
-	E_RATE,
-	E_ORDERLIMIT,
-	E_DEALMETHOD,
-	E_END
+	E_SYRIUPDOIN_UPDOWNID = 0,
+	E_SYRIUPDOIN_OPTIONTYPE,
+	E_SYRIUPDOIN_PRODUCTID,
+	E_SYRIUPDOIN_RATE,
+	E_SYRIUPDOIN_ORDERLIMIT,
+	E_SYRIUPDOIN_DEALMETHOD,
+	E_SYRIUPDOIN_END
 };
 
 const char* const SYS_RISK_UP_DOWN_INFO_TABLE = "sys_risk_up_down_info";
 
-const char* const SYS_RISK_UP_DOWN_INFO_TABLE_COLS[E_END] = {
+const char* const SYS_RISK_UP_DOWN_INFO_TABLE_COLS[E_SYRIUPDOIN_END] = {
 	"upDownID",
 	"optionType",
 	"productID",
@@ -21,7 +21,7 @@ const char* const SYS_RISK_UP_DOWN_INFO_TABLE_COLS[E_END] = {
 	"dealMethod",
 };
 
-const char* const SYS_RISK_UP_DOWN_INFO_TABLE_COLS_ATTR[E_END] = {
+const char* const SYS_RISK_UP_DOWN_INFO_TABLE_COLS_ATTR[E_SYRIUPDOIN_END] = {
 	"varchar(64) COLLATE utf8_bin NOT NULL COMMENT '涨跌幅风控ID'",
 	"tinyint(1) DEFAULT '1' NOT NULL COMMENT '涨跌类型： 1表示涨跌幅'",
 	"varchar(64) COLLATE utf8_bin COMMENT '品种ID(扩展使用)'",

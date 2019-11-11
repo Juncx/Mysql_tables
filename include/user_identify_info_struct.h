@@ -1,19 +1,19 @@
 #pragma once
 
 enum USER_IDENTIFY_INFO_TABLE_DESC : int {
-	E_USERID = 0,
-	E_IDCARD,
-	E_BANKNAME,
-	E_BRANCHBANK,
-	E_BANKCARDNO,
-	E_SURNAME,
-	E_ISIDENTIFY,
-	E_END
+	E_USIDIN_USERID = 0,
+	E_USIDIN_IDCARD,
+	E_USIDIN_BANKNAME,
+	E_USIDIN_BRANCHBANK,
+	E_USIDIN_BANKCARDNO,
+	E_USIDIN_SURNAME,
+	E_USIDIN_ISIDENTIFY,
+	E_USIDIN_END
 };
 
 const char* const USER_IDENTIFY_INFO_TABLE = "user_identify_info";
 
-const char* const USER_IDENTIFY_INFO_TABLE_COLS[E_END] = {
+const char* const USER_IDENTIFY_INFO_TABLE_COLS[E_USIDIN_END] = {
 	"userID",
 	"IDCard",
 	"bankName",
@@ -23,7 +23,7 @@ const char* const USER_IDENTIFY_INFO_TABLE_COLS[E_END] = {
 	"isIdentify",
 };
 
-const char* const USER_IDENTIFY_INFO_TABLE_COLS_ATTR[E_END] = {
+const char* const USER_IDENTIFY_INFO_TABLE_COLS_ATTR[E_USIDIN_END] = {
 	"varchar(64) COLLATE utf8_bin NOT NULL",
 	"char(24) COLLATE utf8_bin NOT NULL",
 	"char(24) COLLATE utf8_bin NOT NULL",

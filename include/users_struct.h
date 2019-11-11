@@ -1,30 +1,30 @@
 #pragma once
 
 enum USERS_TABLE_DESC : int {
-	E_USERID = 0,
-	E_USERTYPE,
-	E_LEVEL,
-	E_LOGINNAME,
-	E_ACCOUNTNAME,
-	E_PASSWORD,
-	E_PHONE,
-	E_POULARIZELINK,
-	E_ADDRESS,
-	E_ISLOGICDEL,
-	E_REGISTERDATE,
-	E_REGISTERTIME,
-	E_MAINIDNUM,
-	E_SUBIDNUM,
-	E_COUNTERTYPE,
-	E_ALLOTYPE,
-	E_VALIDENDDATE,
-	E_VALIDENDTIME,
-	E_END
+	E_US_USERID = 0,
+	E_US_USERTYPE,
+	E_US_LEVEL,
+	E_US_LOGINNAME,
+	E_US_ACCOUNTNAME,
+	E_US_PASSWORD,
+	E_US_PHONE,
+	E_US_POULARIZELINK,
+	E_US_ADDRESS,
+	E_US_ISLOGICDEL,
+	E_US_REGISTERDATE,
+	E_US_REGISTERTIME,
+	E_US_MAINIDNUM,
+	E_US_SUBIDNUM,
+	E_US_COUNTERTYPE,
+	E_US_ALLOTYPE,
+	E_US_VALIDENDDATE,
+	E_US_VALIDENDTIME,
+	E_US_END
 };
 
 const char* const USERS_TABLE = "users";
 
-const char* const USERS_TABLE_COLS[E_END] = {
+const char* const USERS_TABLE_COLS[E_US_END] = {
 	"userID",
 	"userType",
 	"level",
@@ -45,7 +45,7 @@ const char* const USERS_TABLE_COLS[E_END] = {
 	"validEndTime",
 };
 
-const char* const USERS_TABLE_COLS_ATTR[E_END] = {
+const char* const USERS_TABLE_COLS_ATTR[E_US_END] = {
 	"varchar(64) COLLATE utf8_bin NOT NULL",
 	"tinyint(1) NOT NULL COMMENT '1交易员，2风控员，3管理员，4机构，5资金账户'",
 	"tinyint(1) NOT NULL COMMENT '所属机构的层级，super1，一级代理2，二级代理3，...'",

@@ -1,19 +1,19 @@
 #pragma once
 
 enum HOLIDAY_INFO_TABLE_DESC : int {
-	E_ID = 0,
-	E_EXCHANGECODE,
-	E_HOLIDAYNAME,
-	E_BEGINDATE,
-	E_BEGINTIME,
-	E_ENDDATE,
-	E_ENDTIME,
-	E_END
+	E_HOIN_ID = 0,
+	E_HOIN_EXCHANGECODE,
+	E_HOIN_HOLIDAYNAME,
+	E_HOIN_BEGINDATE,
+	E_HOIN_BEGINTIME,
+	E_HOIN_ENDDATE,
+	E_HOIN_ENDTIME,
+	E_HOIN_END
 };
 
 const char* const HOLIDAY_INFO_TABLE = "holiday_info";
 
-const char* const HOLIDAY_INFO_TABLE_COLS[E_END] = {
+const char* const HOLIDAY_INFO_TABLE_COLS[E_HOIN_END] = {
 	"id",
 	"exchangeCode",
 	"holidayName",
@@ -23,7 +23,7 @@ const char* const HOLIDAY_INFO_TABLE_COLS[E_END] = {
 	"endTime",
 };
 
-const char* const HOLIDAY_INFO_TABLE_COLS_ATTR[E_END] = {
+const char* const HOLIDAY_INFO_TABLE_COLS_ATTR[E_HOIN_END] = {
 	"int(10) unsigned NOT NULL COMMENT 'id'",
 	"varchar(10) COLLATE utf8_bin COMMENT '交易所ID'",
 	"varchar(64) COLLATE utf8_bin COMMENT '假日名'",

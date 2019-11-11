@@ -1,19 +1,19 @@
 #pragma once
 
 enum AUTHORITY_ROLES_TABLE_DESC : int {
-	E_ROLESID = 0,
-	E_ROLESNAME,
-	E_USERID,
-	E_CREATEDATE,
-	E_CREATETIME,
-	E_ROLESTYPE,
-	E_AUTHORITYTYPE,
-	E_END
+	E_AURO_ROLESID = 0,
+	E_AURO_ROLESNAME,
+	E_AURO_USERID,
+	E_AURO_CREATEDATE,
+	E_AURO_CREATETIME,
+	E_AURO_ROLESTYPE,
+	E_AURO_AUTHORITYTYPE,
+	E_AURO_END
 };
 
 const char* const AUTHORITY_ROLES_TABLE = "authority_roles";
 
-const char* const AUTHORITY_ROLES_TABLE_COLS[E_END] = {
+const char* const AUTHORITY_ROLES_TABLE_COLS[E_AURO_END] = {
 	"rolesID",
 	"rolesName",
 	"userID",
@@ -23,7 +23,7 @@ const char* const AUTHORITY_ROLES_TABLE_COLS[E_END] = {
 	"authorityType",
 };
 
-const char* const AUTHORITY_ROLES_TABLE_COLS_ATTR[E_END] = {
+const char* const AUTHORITY_ROLES_TABLE_COLS_ATTR[E_AURO_END] = {
 	"varchar(64) COLLATE latin1_swedish_ci NOT NULL COMMENT '角色ID'",
 	"varchar(24) COLLATE utf8_general_ci NOT NULL COMMENT '角色名称'",
 	"varchar(64) COLLATE latin1_swedish_ci NOT NULL COMMENT '创建该角色的用户ID'",

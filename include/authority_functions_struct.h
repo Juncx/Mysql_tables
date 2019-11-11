@@ -1,17 +1,17 @@
 #pragma once
 
 enum AUTHORITY_FUNCTIONS_TABLE_DESC : int {
-	E_FUNCTIONID = 0,
-	E_BUSSNESSID,
-	E_NAVIGATIONID,
-	E_FUNCTIONNAME,
-	E_ISSORT,
-	E_END
+	E_AUFU_FUNCTIONID = 0,
+	E_AUFU_BUSSNESSID,
+	E_AUFU_NAVIGATIONID,
+	E_AUFU_FUNCTIONNAME,
+	E_AUFU_ISSORT,
+	E_AUFU_END
 };
 
 const char* const AUTHORITY_FUNCTIONS_TABLE = "authority_functions";
 
-const char* const AUTHORITY_FUNCTIONS_TABLE_COLS[E_END] = {
+const char* const AUTHORITY_FUNCTIONS_TABLE_COLS[E_AUFU_END] = {
 	"functionID",
 	"bussnessID",
 	"navigationID",
@@ -19,7 +19,7 @@ const char* const AUTHORITY_FUNCTIONS_TABLE_COLS[E_END] = {
 	"issort",
 };
 
-const char* const AUTHORITY_FUNCTIONS_TABLE_COLS_ATTR[E_END] = {
+const char* const AUTHORITY_FUNCTIONS_TABLE_COLS_ATTR[E_AUFU_END] = {
 	"int(10) unsigned NOT NULL COMMENT '功能ID'",
 	"int(10) NOT NULL COMMENT '业务ID'",
 	"int(10) NOT NULL COMMENT '业务ID'",

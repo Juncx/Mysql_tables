@@ -1,17 +1,17 @@
 #pragma once
 
 enum RISK_MODULE_INFO_TABLE_DESC : int {
-	E_RISKMODULEID = 0,
-	E_RISKMODULENAME,
-	E_INSTITUTIONID,
-	E_MONITORID,
-	E_MANANGERID,
-	E_END
+	E_RIMOIN_RISKMODULEID = 0,
+	E_RIMOIN_RISKMODULENAME,
+	E_RIMOIN_INSTITUTIONID,
+	E_RIMOIN_MONITORID,
+	E_RIMOIN_MANANGERID,
+	E_RIMOIN_END
 };
 
 const char* const RISK_MODULE_INFO_TABLE = "risk_module_info";
 
-const char* const RISK_MODULE_INFO_TABLE_COLS[E_END] = {
+const char* const RISK_MODULE_INFO_TABLE_COLS[E_RIMOIN_END] = {
 	"riskModuleID",
 	"riskModuleName",
 	"institutionID",
@@ -19,7 +19,7 @@ const char* const RISK_MODULE_INFO_TABLE_COLS[E_END] = {
 	"manangerID",
 };
 
-const char* const RISK_MODULE_INFO_TABLE_COLS_ATTR[E_END] = {
+const char* const RISK_MODULE_INFO_TABLE_COLS_ATTR[E_RIMOIN_END] = {
 	"varchar(64) COLLATE utf8_bin NOT NULL COMMENT '风控模板ID'",
 	"varchar(64) COLLATE utf8_bin NOT NULL COMMENT '风控模块名称'",
 	"varchar(64) COLLATE utf8_bin NOT NULL COMMENT '所属机构ID'",

@@ -1,17 +1,17 @@
 #pragma once
 
 enum RISK_OVER_NIGHT_INFO_TABLE_DESC : int {
-	E_RISKID = 0,
-	E_RISKMODULEID,
-	E_PRODUCTID,
-	E_CHECKTIME,
-	E_RISKDEGREE,
-	E_END
+	E_RIOVNIIN_RISKID = 0,
+	E_RIOVNIIN_RISKMODULEID,
+	E_RIOVNIIN_PRODUCTID,
+	E_RIOVNIIN_CHECKTIME,
+	E_RIOVNIIN_RISKDEGREE,
+	E_RIOVNIIN_END
 };
 
 const char* const RISK_OVER_NIGHT_INFO_TABLE = "risk_over_night_info";
 
-const char* const RISK_OVER_NIGHT_INFO_TABLE_COLS[E_END] = {
+const char* const RISK_OVER_NIGHT_INFO_TABLE_COLS[E_RIOVNIIN_END] = {
 	"riskID",
 	"riskModuleID",
 	"productID",
@@ -19,7 +19,7 @@ const char* const RISK_OVER_NIGHT_INFO_TABLE_COLS[E_END] = {
 	"riskDegree",
 };
 
-const char* const RISK_OVER_NIGHT_INFO_TABLE_COLS_ATTR[E_END] = {
+const char* const RISK_OVER_NIGHT_INFO_TABLE_COLS_ATTR[E_RIOVNIIN_END] = {
 	"varchar(64) COLLATE utf8_general_ci NOT NULL COMMENT '隔夜强平风控ID'",
 	"varchar(64) COLLATE utf8_general_ci NOT NULL COMMENT '风控模板ID'",
 	"varchar(64) COLLATE utf8_general_ci NOT NULL COMMENT '品种ID'",

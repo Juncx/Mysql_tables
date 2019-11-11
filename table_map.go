@@ -10,19 +10,30 @@ import (
 
 var head string = "#pragma once"
 
+func EnumPrefix(table string) string {
+	var res string
+
+	fields := strings.Split(table, "_")
+	for _, v := range fields {
+		res += v[:2]
+	}
+	return strings.ToUpper(res)
+}
+
 func GenTableDescEnum(engine *xorm.Engine, table string) string {
 	c := make([]string, 0)
 	ename := strings.ToUpper(table + "_TABLE_DESC")
 	ename = fmt.Sprintf("enum %s : int {", ename)
 	c = append(c, ename)
 
+	pre := EnumPrefix(table)
 	// get enmu field
 	col, err := ShowColumn(engine, table)
 	if err != nil {
 		panic(err)
 	}
 	for k, v := range col.Columns {
-		t := fmt.Sprintf("\tE_%s,", v.Field)
+		t := fmt.Sprintf("\tE_%s_%s,", pre, v.Field)
 		t = strings.ToUpper(t)
 		if k == 0 {
 			t = t[:len(t)-1]
@@ -32,7 +43,8 @@ func GenTableDescEnum(engine *xorm.Engine, table string) string {
 		c = append(c, t)
 	}
 
-	c = append(c, "\tE_END")
+	end := fmt.Sprintf("\tE_%s_END", pre)
+	c = append(c, end)
 	c = append(c, "};")
 
 	ret := strings.Join(c, "\n")
@@ -48,8 +60,10 @@ func GenTabName(table string) string {
 
 func GenTabCols(engine *xorm.Engine, table string) string {
 	c := make([]string, 0)
+
+	pre := EnumPrefix(table)
 	ename := strings.ToUpper(table + "_TABLE_COLS")
-	ename = fmt.Sprintf("const char* const %s[E_END] = {", ename)
+	ename = fmt.Sprintf("const char* const %s[E_%s_END] = {", ename, pre)
 
 	c = append(c, ename)
 	// get enmu field
@@ -71,8 +85,10 @@ func GenTabCols(engine *xorm.Engine, table string) string {
 
 func GenTabColsAttr(engine *xorm.Engine, table string) string {
 	c := make([]string, 0)
+
+	pre := EnumPrefix(table)
 	ename := strings.ToUpper(table + "_TABLE_COLS_ATTR")
-	ename = fmt.Sprintf("const char* const %s[E_END] = {", ename)
+	ename = fmt.Sprintf("const char* const %s[E_%s_END] = {", ename, pre)
 
 	c = append(c, ename)
 	// get enmu field
