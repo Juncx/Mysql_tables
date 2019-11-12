@@ -1,4 +1,4 @@
-module mysql
+module mysql-tables
 
 go 1.13
 
